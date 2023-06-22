@@ -1,0 +1,31 @@
+.testimonials-transitions-container {
+  padding: 3.75rem 0 6.5rem;
+  background: #171421;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.testimonials-transitions-container .max-width-container {
+  padding: 0 min(6rem, 6.66%);
+}
+.testimonials-section-container .heading-container .heading {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.slick-slider[data-v-3d1a4f76] {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
