@@ -1,0 +1,113 @@
+.why-airtribe-container {
+  padding: 6.25rem;
+  background: #171421;
+  overflow: hidden;
+}
+.max-width-container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+.why-airtribe-container .heading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 140%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.struggle-image {
+  margin: 3.25rem -6.25rem 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+.struggle-image .desktop {
+  min-width: 125rem;
+  height: auto;
+}
+.mobile {
+  display: none;
+}
+.why-airtribe-container .vertical-separator {
+  height: 6.25rem;
+  width: 0.125rem;
+  background: linear-gradient(180deg, #d9d9d9, hsla(0, 0%, 85.1%, 0));
+  margin: 0 auto 3.75rem;
+}
+.why-airtribe-container .heading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 140%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.heading span {
+  font-family: "Plus Jakarta Sans";
+  color: #9070d4;
+}
+.airtribe-way {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -0.625rem;
+}
+.item-container.odd {
+  margin-bottom: 2.5rem;
+}
+.item-container {
+  margin-bottom: 2.5rem;
+  padding: 2rem 0 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  margin: 0 0.625rem;
+}
+.item-container .item-image {
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  top: 0;
+  left: 1.5rem;
+  background: #171421;
+  z-index: 3;
+  border-radius: 50%;
+}
+.item-container .item {
+  padding: 3.5rem 1.5rem;
+  width: 18.25rem;
+  height: 18rem;
+  background: transparent;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid #413e49;
+  position: relative;
+  z-index: 2;
+  color: #bdbdbd;
+}
+.item-container .item .item-heading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 140%;
+  margin-bottom: 2rem;
+}
+.item .item-desc {
+  font-size: 1rem;
+  line-height: 145%;
+}
+.item-container.even {
+  margin-top: 2.5rem;
+}
+.airtribe-way {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -0.625rem;
+}

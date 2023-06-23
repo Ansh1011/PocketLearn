@@ -1,31 +1,112 @@
-.testimonials-transitions-container {
-  padding: 3.75rem 0 6.5rem;
-  background: #171421;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
+.transition-stories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -1rem;
 }
-.testimonials-transitions-container .max-width-container {
-  padding: 0 min(6rem, 6.66%);
+.transition-stories-container {
+  margin-top: 8rem;
 }
-.testimonials-section-container .heading-container .heading {
+.heading-container {
+  margin-bottom: 2.5rem;
+}
+.line-effect {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, #171421, #9e78ed 50%, #171421);
+}
+.heading-container .heading {
   font-family: "Plus Jakarta Sans";
   font-weight: 800;
-  font-size: 2.5rem;
-  line-height: 130%;
-  text-align: center;
-  margin-bottom: 3.5rem;
+  font-size: 2rem;
+  line-height: 162%;
+  margin: -1.625rem auto 0;
+  padding: 0 2rem;
+  background: #171421;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
-.slick-slider[data-v-3d1a4f76] {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-touch-callout: none;
-  -khtml-user-select: none;
-  touch-action: pan-y;
-  -webkit-tap-highlight-color: transparent;
+
+.home-success-story-card-container {
+  margin: 1rem;
+}
+.home-success-story-card-container {
+  background: #221d34;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  width: 23.75rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonial-container {
+  padding: 1.75rem 1.5rem 1.5rem;
+}
+.name-linkedin-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+}
+.name-container .image {
+  height: 2.5rem;
+  width: 2.5rem;
+  min-width: 2.5rem;
+  margin-right: 0.75rem;
+  border-radius: 50%;
+}
+.name-container .name {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 145%;
+  color: #ffcdb1;
+}
+.testimonial {
+  font-size: 1rem;
+  line-height: 145%;
+  color: #9e9e9e;
+}
+.testimonial b {
+  font-weight: 600;
+  color: #fff;
+}
+.transition-container {
+  padding: 0.75rem 1.5rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.transition-container .role-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.role-company .role {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 145%;
+  color: var(--text-subdued);
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+.role-company .company {
+  height: 2.5rem;
+  width: auto;
+}
+.transition-icon {
+  height: 1.5rem;
+  width: auto;
+}
+.transition-container .role-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

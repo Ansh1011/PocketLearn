@@ -1,456 +1,291 @@
 import React from "react";
 import "../LayoutStyles/HomepageSec6.css";
+import nextArrowImg from "../../../images/icon/morethan.png";
 
 const HomepageSec6 = () => {
   return (
     <div>
-      <div class="testimonials-transitions-container">
-        <div class="max-width-container">
-          <div className="testimonials-section-container">
-            <div className="heading-container">
-              <div className="heading">Don't listen to us, listen to them!</div>
-            </div>
-            <div
-              data-v-3d1a4f76
-              dir="ltr"
-              className="slick-slider slick-initialized"
-            >
-              <img
-                data-v-3d1a4f76
-                data-v-21137603
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iNDAiIHk9IjQwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHJ4PSIyMCIgdHJhbnNmb3JtPSJyb3RhdGUoLTE4MCA0MCA0MCkiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuMSIvPgo8cGF0aCBkPSJNMjIuNjY0MSAxMy43MTc2QzIyLjg4OCAxMy45NDE1IDIzIDE0LjIyNjUgMjMgMTQuNTcyNUMyMyAxNC45MTg2IDIyLjg4OCAxNS4yMDM2IDIyLjY2NDEgMTUuNDI3NUwxNy45MDA4IDIwLjE5MDhMMjIuNjY0MSAyNC45NTQyQzIyLjg4OCAyNS4xNzgxIDIzIDI1LjQ2MzEgMjMgMjUuODA5MkMyMyAyNi4xNTUyIDIyLjg4OCAyNi40NDAyIDIyLjY2NDEgMjYuNjY0MUMyMi40NDAyIDI2Ljg4OCAyMi4xNTUyIDI3IDIxLjgwOTIgMjdDMjEuNDYzMSAyNyAyMS4xNzgxIDI2Ljg4OCAyMC45NTQyIDI2LjY2NDFMMTUuMzM1OSAyMS4wNDU4QzE1LjIxMzcgMjAuOTIzNyAxNS4xMjcgMjAuNzkxMyAxNS4wNzU3IDIwLjY0ODlDMTUuMDI1MiAyMC41MDY0IDE1IDIwLjM1MzcgMTUgMjAuMTkwOEMxNSAyMC4wMjggMTUuMDI1MiAxOS44NzUzIDE1LjA3NTcgMTkuNzMyOEMxNS4xMjcgMTkuNTkwMyAxNS4yMTM3IDE5LjQ1OCAxNS4zMzU5IDE5LjMzNTlMMjAuOTU0MiAxMy43MTc2QzIxLjE3ODEgMTMuNDkzNiAyMS40NjMxIDEzLjM4MTcgMjEuODA5MiAxMy4zODE3QzIyLjE1NTIgMTMuMzgxNyAyMi40NDAyIDEzLjQ5MzYgMjIuNjY0MSAxMy43MTc2WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
-                alt="left-arrow"
-                className="carousel-icon slick-arrow slick-prev"
-              />
-              <div data-v-3d1a4f76 className="slick-list">
-                <div
-                  data-v-e4caeaf8
-                  data-v-3d1a4f76
-                  className="slick-track"
-                  style={{
-                    opacity: 1,
-                    transform: "translate3d(-1236px, 0px, 0px)",
-                    width: 3120,
-                  }}
-                >
-                  <div
-                    data-v-e4caeaf8
-                    tabIndex={-1}
-                    data-index={0}
-                    aria-hidden="true"
-                    className="slick-slide"
-                    style={{ outline: "none" }}
-                  >
-                    <div data-v-e4caeaf8>
-                      <div
-                        data-v-cf50320a
-                        className="home-video-testimonial-card-container testimonial-card"
-                        tabIndex={-1}
-                        data-v-e4caeaf8
-                        style={{ width: "100%", display: "inline-block" }}
-                      >
-                        <div
-                          data-v-cf50320a
-                          className="video-thumbnail-container"
-                        >
-                          <div
-                            data-v-d4b6199c
-                            data-v-cf50320a
-                            className="yt-popup-container"
-                          >
-                            {/**/}{" "}
-                            <div
-                              data-v-d4b6199c
-                              className="thumbnail-container"
-                            >
-                              <img
-                                data-v-d4b6199c
-                                data-src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/testimonial%20(1).png"
-                                alt="video-https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/testimonial%20(1).png"
-                                className="bg-img lazyLoad"
-                              />{" "}
-                              <div data-v-d4b6199c className="play-overlay">
-                                <img
-                                  data-v-d4b6199c
-                                  src="/_nuxt/img/play_btn_circle.6fd1bdb.svg"
-                                  alt="play"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>{" "}
-                        <div data-v-cf50320a className="user-container">
-                          <div data-v-cf50320a className="name-image-container">
-                            <img
-                              data-v-cf50320a
-                              data-src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/1680025602787_e_1687392000_and_v_beta_and_t_Lgs_P_Qz9_H_Ln46oa_K_Qibmjwmv1j_JJ_4_P4p_Ika_j4r_I_Io_Gc_efe472ca0e"
-                              alt="Ashish Jain"
-                              className="image lazyLoad"
-                            />{" "}
-                            <div data-v-cf50320a className="name-container">
-                              <div data-v-cf50320a className="name">
-                                Ashish Jain
-                              </div>{" "}
-                              <div data-v-cf50320a className="role">
-                                Founder @Goldlane
-                              </div>
-                            </div>
-                          </div>{" "}
-                          <a
-                            data-v-cf50320a
-                            href="https://www.linkedin.com/in/asish-jain-616883189/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            className="linkedin-container"
-                          >
-                            <img
-                              data-v-cf50320a
-                              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuMjYxMTYgMjIuMDUwMlY4LjQ4ODQ0SDEuNzUzNVYyMi4wNTAySDYuMjYxMTZaTTQuMDA3OTEgNi42MzU3QzUuNTc5ODEgNi42MzU3IDYuNTU4MjQgNS41OTQzMSA2LjU1ODI0IDQuMjkyOTJDNi41Mjg5NiAyLjk2MjE5IDUuNTc5ODcgMS45NDk3MSA0LjAzNzc0IDEuOTQ5NzFDMi40OTU4NSAxLjk0OTcxIDEuNDg3NTUgMi45NjIyMSAxLjQ4NzU1IDQuMjkyOTJDMS40ODc1NSA1LjU5NDM3IDIuNDY1NzQgNi42MzU3IDMuOTc4NDggNi42MzU3SDQuMDA3NzdINC4wMDc5MVpNOC43NTYxMyAyMi4wNTAySDEzLjI2MzhWMTQuNDc2N0MxMy4yNjM4IDE0LjA3MTMgMTMuMjkzMSAxMy42NjY0IDEzLjQxMjEgMTMuMzc2N0MxMy43MzggMTIuNTY2OSAxNC40Nzk3IDExLjcyODEgMTUuNzI0OSAxMS43MjgxQzE3LjM1NiAxMS43MjgxIDE4LjAwODYgMTIuOTcxOCAxOC4wMDg2IDE0Ljc5NDlWMjIuMDUwMUgyMi41MTU5VjE0LjI3MzlDMjIuNTE1OSAxMC4xMDgzIDIwLjI5MjEgOC4xNzAwNSAxNy4zMjYzIDguMTcwMDVDMTQuODk0NiA4LjE3MDA1IDEzLjgyNjkgOS41MjkyOSAxMy4yMzM4IDEwLjQ1NTFIMTMuMjYzOVY4LjQ4ODE2SDguNzU2MjNDOC44MTUzOSA5Ljc2MDcyIDguNzU2MjMgMjIuMDQ5OSA4Ljc1NjIzIDIyLjA0OTlMOC43NTYxMyAyMi4wNTAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
-                              alt="linkedin"
-                              className="linkedin"
-                            />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    data-v-e4caeaf8
-                    tabIndex={-1}
-                    data-index={1}
-                    aria-hidden="true"
-                    className="slick-slide"
-                    style={{ outline: "none" }}
-                  >
-                    <div data-v-e4caeaf8>
-                      <div
-                        data-v-cf50320a
-                        className="home-video-testimonial-card-container testimonial-card"
-                        tabIndex={-1}
-                        data-v-e4caeaf8
-                        style={{ width: "100%", display: "inline-block" }}
-                      >
-                        <div
-                          data-v-cf50320a
-                          className="video-thumbnail-container"
-                        >
-                          <div
-                            data-v-d4b6199c
-                            data-v-cf50320a
-                            className="yt-popup-container"
-                          >
-                            {/**/}{" "}
-                            <div
-                              data-v-d4b6199c
-                              className="thumbnail-container"
-                            >
-                              <img
-                                data-v-d4b6199c
-                                data-src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/vishal%20testimonial%204.png"
-                                alt="video-https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/vishal%20testimonial%204.png"
-                                className="bg-img lazyLoad"
-                              />{" "}
-                              <div data-v-d4b6199c className="play-overlay">
-                                <img
-                                  data-v-d4b6199c
-                                  src="/_nuxt/img/play_btn_circle.6fd1bdb.svg"
-                                  alt="play"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>{" "}
-                        <div data-v-cf50320a className="user-container">
-                          <div data-v-cf50320a className="name-image-container">
-                            <img
-                              data-v-cf50320a
-                              data-src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/1652899475834_e_1687392000_and_v_beta_and_t_Vu_Z8k_U_Op_D1_Z8_Ecc5_Zl3_Y5_QBE_Ztxv20_X8b_Q_Nj8j0_JBA_af60a01d10"
-                              alt="Vishal Rastogi"
-                              className="image lazyLoad"
-                            />{" "}
-                            <div data-v-cf50320a className="name-container">
-                              <div data-v-cf50320a className="name">
-                                Vishal Rastogi
-                              </div>{" "}
-                              <div data-v-cf50320a className="role">
-                                {" "}
-                                Product Manager @ Bosch
-                              </div>
-                            </div>
-                          </div>{" "}
-                          <a
-                            data-v-cf50320a
-                            href="https://www.linkedin.com/in/mrvishalrastogi/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            className="linkedin-container"
-                          >
-                            <img
-                              data-v-cf50320a
-                              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuMjYxMTYgMjIuMDUwMlY4LjQ4ODQ0SDEuNzUzNVYyMi4wNTAySDYuMjYxMTZaTTQuMDA3OTEgNi42MzU3QzUuNTc5ODEgNi42MzU3IDYuNTU4MjQgNS41OTQzMSA2LjU1ODI0IDQuMjkyOTJDNi41Mjg5NiAyLjk2MjE5IDUuNTc5ODcgMS45NDk3MSA0LjAzNzc0IDEuOTQ5NzFDMi40OTU4NSAxLjk0OTcxIDEuNDg3NTUgMi45NjIyMSAxLjQ4NzU1IDQuMjkyOTJDMS40ODc1NSA1LjU5NDM3IDIuNDY1NzQgNi42MzU3IDMuOTc4NDggNi42MzU3SDQuMDA3NzdINC4wMDc5MVpNOC43NTYxMyAyMi4wNTAySDEzLjI2MzhWMTQuNDc2N0MxMy4yNjM4IDE0LjA3MTMgMTMuMjkzMSAxMy42NjY0IDEzLjQxMjEgMTMuMzc2N0MxMy43MzggMTIuNTY2OSAxNC40Nzk3IDExLjcyODEgMTUuNzI0OSAxMS43MjgxQzE3LjM1NiAxMS43MjgxIDE4LjAwODYgMTIuOTcxOCAxOC4wMDg2IDE0Ljc5NDlWMjIuMDUwMUgyMi41MTU5VjE0LjI3MzlDMjIuNTE1OSAxMC4xMDgzIDIwLjI5MjEgOC4xNzAwNSAxNy4zMjYzIDguMTcwMDVDMTQuODk0NiA4LjE3MDA1IDEzLjgyNjkgOS41MjkyOSAxMy4yMzM4IDEwLjQ1NTFIMTMuMjYzOVY4LjQ4ODE2SDguNzU2MjNDOC44MTUzOSA5Ljc2MDcyIDguNzU2MjMgMjIuMDQ5OSA4Ljc1NjIzIDIyLjA0OTlMOC43NTYxMyAyMi4wNTAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
-                              alt="linkedin"
-                              className="linkedin"
-                            />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    data-v-e4caeaf8
-                    tabIndex={-1}
-                    data-index={2}
-                    aria-hidden="true"
-                    className="slick-slide"
-                    style={{ outline: "none" }}
-                  >
-                    <div data-v-e4caeaf8>
-                      <div
-                        data-v-cf50320a
-                        className="home-video-testimonial-card-container testimonial-card"
-                        tabIndex={-1}
-                        data-v-e4caeaf8
-                        style={{ width: "100%", display: "inline-block" }}
-                      >
-                        <div
-                          data-v-cf50320a
-                          className="video-thumbnail-container"
-                        >
-                          <div
-                            data-v-d4b6199c
-                            data-v-cf50320a
-                            className="yt-popup-container"
-                          >
-                            {/**/}{" "}
-                            <div
-                              data-v-d4b6199c
-                              className="thumbnail-container"
-                            >
-                              <img
-                                data-v-d4b6199c
-                                data-src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/varun%20testimonial.png"
-                                alt="video-https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/varun%20testimonial.png"
-                                className="bg-img lazyLoad"
-                              />{" "}
-                              <div data-v-d4b6199c className="play-overlay">
-                                <img
-                                  data-v-d4b6199c
-                                  src="/_nuxt/img/play_btn_circle.6fd1bdb.svg"
-                                  alt="play"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>{" "}
-                        <div data-v-cf50320a className="user-container">
-                          <div data-v-cf50320a className="name-image-container">
-                            <img
-                              data-v-cf50320a
-                              data-src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Untitled_1_b0a5be709b.png"
-                              alt="Pragya Sharma"
-                              className="image lazyLoad"
-                            />{" "}
-                            <div data-v-cf50320a className="name-container">
-                              <div data-v-cf50320a className="name">
-                                Pragya Sharma
-                              </div>{" "}
-                              <div data-v-cf50320a className="role">
-                                Sr Solutions Consultant @Hubilo
-                              </div>
-                            </div>
-                          </div>{" "}
-                          <a
-                            data-v-cf50320a
-                            href="https://www.linkedin.com/in/pragya-sharma-489422101/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            className="linkedin-container"
-                          >
-                            <img
-                              data-v-cf50320a
-                              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuMjYxMTYgMjIuMDUwMlY4LjQ4ODQ0SDEuNzUzNVYyMi4wNTAySDYuMjYxMTZaTTQuMDA3OTEgNi42MzU3QzUuNTc5ODEgNi42MzU3IDYuNTU4MjQgNS41OTQzMSA2LjU1ODI0IDQuMjkyOTJDNi41Mjg5NiAyLjk2MjE5IDUuNTc5ODcgMS45NDk3MSA0LjAzNzc0IDEuOTQ5NzFDMi40OTU4NSAxLjk0OTcxIDEuNDg3NTUgMi45NjIyMSAxLjQ4NzU1IDQuMjkyOTJDMS40ODc1NSA1LjU5NDM3IDIuNDY1NzQgNi42MzU3IDMuOTc4NDggNi42MzU3SDQuMDA3NzdINC4wMDc5MVpNOC43NTYxMyAyMi4wNTAySDEzLjI2MzhWMTQuNDc2N0MxMy4yNjM4IDE0LjA3MTMgMTMuMjkzMSAxMy42NjY0IDEzLjQxMjEgMTMuMzc2N0MxMy43MzggMTIuNTY2OSAxNC40Nzk3IDExLjcyODEgMTUuNzI0OSAxMS43MjgxQzE3LjM1NiAxMS43MjgxIDE4LjAwODYgMTIuOTcxOCAxOC4wMDg2IDE0Ljc5NDlWMjIuMDUwMUgyMi41MTU5VjE0LjI3MzlDMjIuNTE1OSAxMC4xMDgzIDIwLjI5MjEgOC4xNzAwNSAxNy4zMjYzIDguMTcwMDVDMTQuODk0NiA4LjE3MDA1IDEzLjgyNjkgOS41MjkyOSAxMy4yMzM4IDEwLjQ1NTFIMTMuMjYzOVY4LjQ4ODE2SDguNzU2MjNDOC44MTUzOSA5Ljc2MDcyIDguNzU2MjMgMjIuMDQ5OSA4Ljc1NjIzIDIyLjA0OTlMOC43NTYxMyAyMi4wNTAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
-                              alt="linkedin"
-                              className="linkedin"
-                            />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    data-v-e4caeaf8
-                    tabIndex={-1}
-                    data-index={3}
-                    aria-hidden="false"
-                    className="slick-slide slick-active slick-current"
-                    style={{ outline: "none" }}
-                  >
-                    <div data-v-e4caeaf8>
-                      <div
-                        data-v-cf50320a
-                        className="home-video-testimonial-card-container testimonial-card"
-                        tabIndex={-1}
-                        data-v-e4caeaf8
-                        style={{ width: "100%", display: "inline-block" }}
-                      >
-                        <div
-                          data-v-cf50320a
-                          className="video-thumbnail-container"
-                        >
-                          <div
-                            data-v-d4b6199c
-                            data-v-cf50320a
-                            className="yt-popup-container"
-                          >
-                            {/**/}{" "}
-                            <div
-                              data-v-d4b6199c
-                              className="thumbnail-container"
-                            >
-                              <img
-                                data-v-d4b6199c
-                                alt="video-https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/varun%20testimonial%20(1).png"
-                                className="bg-img lazyLoad isLoaded"
-                                src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/varun%20testimonial%20(1).png"
-                              />{" "}
-                              <div data-v-d4b6199c className="play-overlay">
-                                <img
-                                  data-v-d4b6199c
-                                  src="/_nuxt/img/play_btn_circle.6fd1bdb.svg"
-                                  alt="play"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>{" "}
-                        <div data-v-cf50320a className="user-container">
-                          <div data-v-cf50320a className="name-image-container">
-                            <img
-                              data-v-cf50320a
-                              alt="Varun Bhattacharya"
-                              className="image lazyLoad isLoaded"
-                              src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/1516790606416_e_1687392000_and_v_beta_and_t_x_Yeo_X58_Slm_OGGD_u_OAE_8_2g_YK_Sh_Kf_Zbi_X8xswp4z_Ihs_dfc304313a"
-                            />{" "}
-                            <div data-v-cf50320a className="name-container">
-                              <div data-v-cf50320a className="name">
-                                Varun Bhattacharya
-                              </div>{" "}
-                              <div data-v-cf50320a className="role">
-                                Sr Product Manager @Smytten
-                              </div>
-                            </div>
-                          </div>{" "}
-                          <a
-                            data-v-cf50320a
-                            href="https://www.linkedin.com/in/varun-bhattacharya-41248238/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            className="linkedin-container"
-                          >
-                            <img
-                              data-v-cf50320a
-                              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuMjYxMTYgMjIuMDUwMlY4LjQ4ODQ0SDEuNzUzNVYyMi4wNTAySDYuMjYxMTZaTTQuMDA3OTEgNi42MzU3QzUuNTc5ODEgNi42MzU3IDYuNTU4MjQgNS41OTQzMSA2LjU1ODI0IDQuMjkyOTJDNi41Mjg5NiAyLjk2MjE5IDUuNTc5ODcgMS45NDk3MSA0LjAzNzc0IDEuOTQ5NzFDMi40OTU4NSAxLjk0OTcxIDEuNDg3NTUgMi45NjIyMSAxLjQ4NzU1IDQuMjkyOTJDMS40ODc1NSA1LjU5NDM3IDIuNDY1NzQgNi42MzU3IDMuOTc4NDggNi42MzU3SDQuMDA3NzdINC4wMDc5MVpNOC43NTYxMyAyMi4wNTAySDEzLjI2MzhWMTQuNDc2N0MxMy4yNjM4IDE0LjA3MTMgMTMuMjkzMSAxMy42NjY0IDEzLjQxMjEgMTMuMzc2N0MxMy43MzggMTIuNTY2OSAxNC40Nzk3IDExLjcyODEgMTUuNzI0OSAxMS43MjgxQzE3LjM1NiAxMS43MjgxIDE4LjAwODYgMTIuOTcxOCAxOC4wMDg2IDE0Ljc5NDlWMjIuMDUwMUgyMi41MTU5VjE0LjI3MzlDMjIuNTE1OSAxMC4xMDgzIDIwLjI5MjEgOC4xNzAwNSAxNy4zMjYzIDguMTcwMDVDMTQuODk0NiA4LjE3MDA1IDEzLjgyNjkgOS41MjkyOSAxMy4yMzM4IDEwLjQ1NTFIMTMuMjYzOVY4LjQ4ODE2SDguNzU2MjNDOC44MTUzOSA5Ljc2MDcyIDguNzU2MjMgMjIuMDQ5OSA4Ljc1NjIzIDIyLjA0OTlMOC43NTYxMyAyMi4wNTAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
-                              alt="linkedin"
-                              className="linkedin"
-                            />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    data-v-e4caeaf8
-                    tabIndex={-1}
-                    data-index={4}
-                    aria-hidden="false"
-                    className="slick-slide slick-active"
-                    style={{ outline: "none" }}
-                  >
-                    <div data-v-e4caeaf8>
-                      <div
-                        data-v-cf50320a
-                        className="home-video-testimonial-card-container testimonial-card"
-                        tabIndex={-1}
-                        data-v-e4caeaf8
-                        style={{ width: "100%", display: "inline-block" }}
-                      >
-                        <div
-                          data-v-cf50320a
-                          className="video-thumbnail-container"
-                        >
-                          <div
-                            data-v-d4b6199c
-                            data-v-cf50320a
-                            className="yt-popup-container"
-                          >
-                            {/**/}{" "}
-                            <div
-                              data-v-d4b6199c
-                              className="thumbnail-container"
-                            >
-                              <img
-                                data-v-d4b6199c
-                                alt="video-https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/Gaurav%20Thumbnail%20(1).png"
-                                className="bg-img lazyLoad isLoaded"
-                                src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/static/Gaurav%20Thumbnail%20(1).png"
-                              />{" "}
-                              <div data-v-d4b6199c className="play-overlay">
-                                <img
-                                  data-v-d4b6199c
-                                  src="/_nuxt/img/play_btn_circle.6fd1bdb.svg"
-                                  alt="play"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>{" "}
-                        <div data-v-cf50320a className="user-container">
-                          <div data-v-cf50320a className="name-image-container">
-                            <img
-                              data-v-cf50320a
-                              alt="Gaurav KP"
-                              className="image lazyLoad isLoaded"
-                              src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/1603115334268_e_1687392000_and_v_beta_and_t_Vl_Jo7b_Nz_Q_Yf_Od_gpl_N9p_V_Pnxs80s446d5bpfko_Lv_Gg_8454f89b94"
-                            />{" "}
-                            <div data-v-cf50320a className="name-container">
-                              <div data-v-cf50320a className="name">
-                                Gaurav KP
-                              </div>{" "}
-                              <div data-v-cf50320a className="role">
-                                Software Developer @rePurpose Global
-                              </div>
-                            </div>
-                          </div>{" "}
-                          <a
-                            data-v-cf50320a
-                            href="https://www.linkedin.com/in/kpgaurav/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            className="linkedin-container"
-                          >
-                            <img
-                              data-v-cf50320a
-                              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuMjYxMTYgMjIuMDUwMlY4LjQ4ODQ0SDEuNzUzNVYyMi4wNTAySDYuMjYxMTZaTTQuMDA3OTEgNi42MzU3QzUuNTc5ODEgNi42MzU3IDYuNTU4MjQgNS41OTQzMSA2LjU1ODI0IDQuMjkyOTJDNi41Mjg5NiAyLjk2MjE5IDUuNTc5ODcgMS45NDk3MSA0LjAzNzc0IDEuOTQ5NzFDMi40OTU4NSAxLjk0OTcxIDEuNDg3NTUgMi45NjIyMSAxLjQ4NzU1IDQuMjkyOTJDMS40ODc1NSA1LjU5NDM3IDIuNDY1NzQgNi42MzU3IDMuOTc4NDggNi42MzU3SDQuMDA3NzdINC4wMDc5MVpNOC43NTYxMyAyMi4wNTAySDEzLjI2MzhWMTQuNDc2N0MxMy4yNjM4IDE0LjA3MTMgMTMuMjkzMSAxMy42NjY0IDEzLjQxMjEgMTMuMzc2N0MxMy43MzggMTIuNTY2OSAxNC40Nzk3IDExLjcyODEgMTUuNzI0OSAxMS43MjgxQzE3LjM1NiAxMS43MjgxIDE4LjAwODYgMTIuOTcxOCAxOC4wMDg2IDE0Ljc5NDlWMjIuMDUwMUgyMi41MTU5VjE0LjI3MzlDMjIuNTE1OSAxMC4xMDgzIDIwLjI5MjEgOC4xNzAwNSAxNy4zMjYzIDguMTcwMDVDMTQuODk0NiA4LjE3MDA1IDEzLjgyNjkgOS41MjkyOSAxMy4yMzM4IDEwLjQ1NTFIMTMuMjYzOVY4LjQ4ODE2SDguNzU2MjNDOC44MTUzOSA5Ljc2MDcyIDguNzU2MjMgMjIuMDQ5OSA4Ljc1NjIzIDIyLjA0OTlMOC43NTYxMyAyMi4wNTAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
-                              alt="linkedin"
-                              className="linkedin"
-                            />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+      <div className="transition-stories-container">
+        <div className="heading-container">
+          <div className="line-effect" />{" "}
+          <div className="heading">Success stories</div>
+        </div>{" "}
+        <div className="transition-stories desktop">
+          <div className="home-success-story-card-container">
+            <div className="testimonial-container">
+              <div className="name-linkedin-container">
+                <div className="name-container">
+                  <img
+                    alt="Radhynesh Meshram"
+                    className="image lazyLoad isLoaded"
+                    src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/DKFUIPY_6_POV_94_VUY_1245575917.jpeg"
+                  />{" "}
+                  <div className="name">Radhynesh Meshram</div>
                 </div>
+              </div>{" "}
+              <div className="testimonial">
+                The course content was great, and everything that was mentioned
+                was useful.{" "}
+                <b>
+                  The thing that stood out for me is the mindset that anyone
+                  could be a PM, that gave me a lot of confidence.
+                </b>
               </div>
+            </div>{" "}
+            <div className="transition-container">
+              <div className="role-company">
+                <div className="role">Developer</div>{" "}
+                <img
+                  alt="image 296 (1).png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/image_296_1_dea5ac3245.png"
+                />
+              </div>{" "}
               <img
-                data-v-3d1a4f76
-                data-v-21137603
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iMjAiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuMSIvPgo8cGF0aCBkPSJNMTcuMzM1OSAyNi4yODI0QzE3LjExMiAyNi4wNTg1IDE3IDI1Ljc3MzUgMTcgMjUuNDI3NUMxNyAyNS4wODE0IDE3LjExMiAyNC43OTY0IDE3LjMzNTkgMjQuNTcyNUwyMi4wOTkyIDE5LjgwOTJMMTcuMzM1OSAxNS4wNDU4QzE3LjExMiAxNC44MjE5IDE3IDE0LjUzNjkgMTcgMTQuMTkwOEMxNyAxMy44NDQ4IDE3LjExMiAxMy41NTk4IDE3LjMzNTkgMTMuMzM1OUMxNy41NTk4IDEzLjExMiAxNy44NDQ4IDEzIDE4LjE5MDggMTNDMTguNTM2OSAxMyAxOC44MjE5IDEzLjExMiAxOS4wNDU4IDEzLjMzNTlMMjQuNjY0MSAxOC45NTQyQzI0Ljc4NjMgMTkuMDc2MyAyNC44NzMgMTkuMjA4NyAyNC45MjQzIDE5LjM1MTFDMjQuOTc0OCAxOS40OTM2IDI1IDE5LjY0NjMgMjUgMTkuODA5MkMyNSAxOS45NzIgMjQuOTc0OCAyMC4xMjQ3IDI0LjkyNDMgMjAuMjY3MkMyNC44NzMgMjAuNDA5NyAyNC43ODYzIDIwLjU0MiAyNC42NjQxIDIwLjY2NDFMMTkuMDQ1OCAyNi4yODI0QzE4LjgyMTkgMjYuNTA2NCAxOC41MzY5IDI2LjYxODMgMTguMTkwOCAyNi42MTgzQzE3Ljg0NDggMjYuNjE4MyAxNy41NTk4IDI2LjUwNjQgMTcuMzM1OSAyNi4yODI0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
-                alt="right-arrow"
-                className="carousel-icon slick-arrow slick-next slick-disabled"
-              />
+                src={nextArrowImg}
+                alt="transition"
+                className="transition-icon"
+              />{" "}
+              <div className="role-company">
+                <div className="role">APM</div>{" "}
+                <img
+                  alt="Frame 44902.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44902_c59361fa29.png"
+                />
+              </div>
             </div>
           </div>
-        </div>
+          <div className="home-success-story-card-container">
+            <div className="testimonial-container">
+              <div className="name-linkedin-container">
+                <div className="name-container">
+                  <img
+                    alt="Swati Shetty "
+                    className="image lazyLoad isLoaded"
+                    src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/1627904442555_e_1687392000_and_v_beta_and_t_h_TQ_Bbkko_ATC_Wc_U_Dz_Y6i_N5_Db8ayqq_Nr72ax3a68_D4c_A_4fdfce90a3"
+                  />{" "}
+                  <div className="name">Swati Shetty </div>
+                </div>
+              </div>{" "}
+              <div className="testimonial">
+                <b>
+                  The capstone where we learned to build a product from scratch
+                  was very helpful.
+                </b>{" "}
+                The user research insights were invaluable for my future as a
+                product manager.{" "}
+                <b>The team collaboration and mentorship were excellent</b>, and
+                I even gained confidence teaching others.
+              </div>
+            </div>{" "}
+            <div className="transition-container">
+              <div className="role-company">
+                <div className="role">Product Analyst</div>{" "}
+                <img
+                  alt="Frame 44922.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44922_ab8ae2f573.png"
+                />
+              </div>{" "}
+              <img
+                src={nextArrowImg}
+                alt="transition"
+                className="transition-icon"
+              />{" "}
+              <div className="role-company">
+                <div className="role">Sr. Product Owner</div>{" "}
+                <img
+                  alt="Frame 44923.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44923_c76c5bb25b.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="home-success-story-card-container">
+            <div className="testimonial-container">
+              <div className="name-linkedin-container">
+                <div className="name-container">
+                  <img
+                    alt="Nishu Suryavanshi"
+                    className="image lazyLoad isLoaded"
+                    src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Untitled_3_3a64f70356.png"
+                  />{" "}
+                  <div className="name">Nishu Suryavanshi</div>
+                </div>
+              </div>{" "}
+              <div className="testimonial">
+                <b>
+                  Without a doubt, the program has boosted my confidence, helped
+                  in structured thinking and prepped me well for job interviews.
+                </b>{" "}
+                The community and mentors were incredibly supportive and I had
+                the opportunity to showcase my skills to others.
+              </div>
+            </div>{" "}
+            <div className="transition-container">
+              <div className="role-company">
+                <div className="role">Product Manager</div>{" "}
+                <img
+                  alt="Frame 44905.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44905_ad48e40626.png"
+                />
+              </div>{" "}
+              <img
+                src={nextArrowImg}
+                alt="transition"
+                className="transition-icon"
+              />{" "}
+              <div className="role-company">
+                <div className="role">Product Manager</div>{" "}
+                <img
+                  alt="Frame 44906.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44906_e3f8c467ea.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="home-success-story-card-container">
+            <div className="testimonial-container">
+              <div className="name-linkedin-container">
+                <div className="name-container">
+                  <img
+                    alt="Prasad Akki"
+                    className="image lazyLoad isLoaded"
+                    src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Screenshot_2023_04_26_at_5_47_22_PM_17a151fd9e.png"
+                  />{" "}
+                  <div className="name">Prasad Akki</div>
+                </div>
+              </div>{" "}
+              <div className="testimonial">
+                The course was pretty helpful for me from working in a&nbsp;
+                <b>
+                  non-technical job to successfully transitioning to a PM role.
+                  There were also other PMs in the cohort from whom I could also
+                  learn.
+                </b>
+                &nbsp;The assignments and guest lectures helped me a lot to
+                transition into a PM role.
+              </div>
+            </div>{" "}
+            <div className="transition-container">
+              <div className="role-company">
+                <div className="role">Compliance Associate</div>{" "}
+                <img
+                  alt="Frame 44903.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44903_c49834b69e.png"
+                />
+              </div>{" "}
+              <img
+                src={nextArrowImg}
+                alt="transition"
+                className="transition-icon"
+              />{" "}
+              <div className="role-company">
+                <div className="role">Product Manager</div>{" "}
+                <img
+                  alt="Frame 44904.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44904_8c89b70e26.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="home-success-story-card-container">
+            <div className="testimonial-container">
+              <div className="name-linkedin-container">
+                <div className="name-container">
+                  <img
+                    alt="Kshitiz Jaiswal"
+                    className="image lazyLoad isLoaded"
+                    src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/1624640233753_e_1687392000_and_v_beta_and_t_z5su_Dg_Tyctps_CU_3_SE_Rx_N_Yde_Ck8_Ho_Tss_FPJ_Yg_Bvigt_LM_bbf7a0c3d2"
+                  />{" "}
+                  <div className="name">Kshitiz Jaiswal</div>
+                </div>
+              </div>{" "}
+              <div className="testimonial">
+                I highly recommend this program. The content was well-designed,
+                and the teaching style was simple.{" "}
+                <b>
+                  The assessment design was good, and the structured and
+                  straightforward content made it easy to follow.
+                </b>
+              </div>
+            </div>{" "}
+            <div className="transition-container">
+              <div className="role-company">
+                <div className="role">Intern</div>{" "}
+                <img
+                  alt="Frame 44925.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44925_6b4fc89a99.png"
+                />
+              </div>{" "}
+              <img
+                src={nextArrowImg}
+                alt="transition"
+                className="transition-icon"
+              />{" "}
+              <div className="role-company">
+                <div className="role">Founders' Office</div>{" "}
+                <img
+                  alt="Frame 44924.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Frame_44924_5c3a597acc.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="home-success-story-card-container">
+            <div className="testimonial-container">
+              <div className="name-linkedin-container">
+                <div className="name-container">
+                  <img
+                    alt="Pragya Sharma"
+                    className="image lazyLoad isLoaded"
+                    src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/Untitled_1_b0a5be709b.png"
+                  />{" "}
+                  <div className="name">Pragya Sharma</div>
+                </div>
+              </div>{" "}
+              <div className="testimonial">
+                The instructors are very open to questions and we would
+                therefore never hesitate to ask anything in the class.{" "}
+                <b>
+                  There was such a refreshing change of thought in me that I see
+                  in my everyday tasks now that the course is over.
+                </b>
+              </div>
+            </div>{" "}
+            <div className="transition-container">
+              <div className="role-company">
+                <div className="role">Sr. Solutions Consultant</div>{" "}
+                <img
+                  alt="hubilo.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/hubilo_0b1f80209b.png"
+                />
+              </div>{" "}
+              <img
+                src={nextArrowImg}
+                alt="transition"
+                className="transition-icon"
+              />{" "}
+              <div className="role-company">
+                <div className="role">APM</div>{" "}
+                <img
+                  alt="almabase.png"
+                  className="company lazyLoad isLoaded"
+                  src="https://airtribe-strapi.s3.ap-south-1.amazonaws.com/almabase_1f89ec6d20.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>{" "}
       </div>
     </div>
   );

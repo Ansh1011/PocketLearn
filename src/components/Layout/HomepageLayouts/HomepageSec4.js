@@ -10,6 +10,8 @@ import personImg4 from "../../../images/creator/humanNotExist4.jpg";
 import personImg5 from "../../../images/creator/roshan1.jpeg";
 import HomepageSec5 from "./HomepageSec5";
 import HomepageSec6 from "./HomepageSec6";
+import HomepageSec7 from "./HomepageSec7";
+import HomepageSec8 from "./HomepageSec8";
 
 const HomepageSec4 = () => {
   var settings = {
@@ -156,6 +158,8 @@ const HomepageSec4 = () => {
           </Slider>
           <HomepageSec5 />
           <HomepageSec6 />
+          <HomepageSec7 />
+          <HomepageSec8 />
         </div>
       </div>
     </div>
