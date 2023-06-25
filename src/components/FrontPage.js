@@ -6,6 +6,9 @@ import HomepageSec2 from "./Layout/HomepageLayouts/HomepageSec2";
 import HomepageSec3 from "./Layout/HomepageLayouts/HomepageSec3";
 import HomepageSec4 from "./Layout/HomepageLayouts/HomepageSec4";
 import HomepageSec5 from "./Layout/HomepageLayouts/HomepageSec5";
+import HomepageSec8 from "./Layout/HomepageLayouts/HomepageSec8";
+import HomepageSec9 from "./Layout/HomepageLayouts/HomepageSec9";
+import HomepageSec10 from "./Layout/HomepageLayouts/HomepageSec10";
 
 const FrontPage = () => {
   return (
@@ -15,7 +18,8 @@ const FrontPage = () => {
       <HomepageSec2 />
       <HomepageSec3 />
       <HomepageSec4 />
-
+      <HomepageSec8 />
+      <HomepageSec9 />
       <Footer />
     </div>
   );

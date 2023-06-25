@@ -159,7 +159,6 @@ const HomepageSec4 = () => {
           <HomepageSec5 />
           <HomepageSec6 />
           <HomepageSec7 />
-          <HomepageSec8 />
         </div>
       </div>
     </div>

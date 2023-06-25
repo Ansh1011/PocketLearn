@@ -94,29 +94,6 @@ const HomepageSec7 = () => {
                 />
               </div>
             </div>
-            <div className="item-container even">
-              <img
-                alt="value-4"
-                className="item-image lazyLoad isLoaded"
-                src="https://www.airtribe.live/_nuxt/img/community_airtribeWay.f6029de.svg"
-              />{" "}
-              <div className="item">
-                <div className="item-heading">
-                  Active community to help you grow
-                </div>{" "}
-                <div className="item-desc">
-                  Our programs offer a college-like learning experience with a
-                  supportive community of like-minded individuals
-                </div>{" "}
-                <div
-                  className="hue-effect"
-                  style={{
-                    background:
-                      "linear-gradient(rgba(104, 63, 190, 0.2) 0%, rgba(104, 63, 190, 0) 100%)",
-                  }}
-                />
-              </div>
-            </div>
           </div>
         </div>
       </div>

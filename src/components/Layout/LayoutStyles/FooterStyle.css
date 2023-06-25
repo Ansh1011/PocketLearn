@@ -2,7 +2,7 @@
   outline: 1px solid #036cdb !important;
 } */
 .footerBody {
-  min-height: 60vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
 }
