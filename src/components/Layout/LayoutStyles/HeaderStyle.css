@@ -10,7 +10,7 @@
 .navbar-custom .navbar-brand {
   margin-right: 2.5rem;
 }
-.btn {
+.HeaderBtn {
   padding: 0.75rem 1.25rem;
   font-weight: 600;
   background: #683fbe;
@@ -19,7 +19,7 @@
   align-items: center;
   white-space: nowrap;
 }
-.btn:hover {
+.HeaderBtn:hover {
   background-color: #ffffff;
   transition: 0.7s;
 }

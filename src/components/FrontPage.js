@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./Layout/Header";
 import Footer from "./Layout/Footer";
 import HomepageSec1 from "./Layout/HomepageLayouts/HomepageSec1";
@@ -9,11 +9,13 @@ import HomepageSec5 from "./Layout/HomepageLayouts/HomepageSec5";
 import HomepageSec8 from "./Layout/HomepageLayouts/HomepageSec8";
 import HomepageSec9 from "./Layout/HomepageLayouts/HomepageSec9";
 import HomepageSec10 from "./Layout/HomepageLayouts/HomepageSec10";
+import SignupPopUp from "./Layout/Auth/SignupPopUp";
 
 const FrontPage = () => {
   return (
     <div>
       <Header />
+      <SignupPopUp />
       <HomepageSec1 />
       <HomepageSec2 />
       <HomepageSec3 />

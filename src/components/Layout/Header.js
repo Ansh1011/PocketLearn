@@ -80,7 +80,7 @@ const Header = () => {
             </li>
           </ul>
 
-          <button className="btn " type="submit">
+          <button className="HeaderBtn " type="submit">
             Get Started
           </button>
         </div>
