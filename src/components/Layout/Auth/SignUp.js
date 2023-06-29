@@ -3,7 +3,8 @@ import React, { useState } from "react";
 const SignUp = (props) => {
   let [authMode, setAuthMode] = useState("signin");
 
-  const changeAuthMode = () => {
+  const changeAuthMode = (event) => {
+    event.preventDefault();
     setAuthMode(authMode === "signin" ? "signup" : "signin");
   };
 
