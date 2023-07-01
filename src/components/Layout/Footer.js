@@ -29,7 +29,7 @@ const Footer = () => {
                     src={logo}
                     className="main-logo"
                   />
-                  LearnEd
+                  PocketLearn
                 </a>
               </div>{" "}
               <div className="description">

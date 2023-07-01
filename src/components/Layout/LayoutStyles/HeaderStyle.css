@@ -1,15 +1,13 @@
 .navbar-custom {
   background-color: #171421;
 }
-.container-fluid {
+.navbar {
   padding: 0.5% 7% 0.5%;
-  max-width: 90rem;
+  max-width: 100rem;
   justify-content: space-between;
   min-height: 5rem;
 }
-.navbar-custom .navbar-brand {
-  margin-right: 2.5rem;
-}
+
 .HeaderBtn {
   padding: 0.75rem 1.25rem;
   font-weight: 600;
@@ -22,4 +20,41 @@
 .HeaderBtn:hover {
   background-color: #ffffff;
   transition: 0.7s;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+.dropdown-menu {
+  background-color: rgb(45, 1, 84);
+}
+.dropdown-item {
+  color: #ffffff;
+}
+.dropdown-item:hover {
+  background-color: rgb(94, 23, 156);
+
+  color: #ffffff;
+}
+.dropend .dropdown-toggle {
+  color: rgb(45, 1, 84);
+  margin-left: 1em;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+}
+@media screen and (min-width: 1049px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .dropend .dropdown-toggle {
+    margin-left: 0.5em;
+  }
 }

@@ -8,7 +8,7 @@ const HomepageSec1 = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-md-12">
-            <h1>LearnEd for professional excellence</h1>
+            <h1>PocketLearn for professional excellence</h1>
             <p>
               Social learning and expert-led programs to start, transition or
               boost your career.

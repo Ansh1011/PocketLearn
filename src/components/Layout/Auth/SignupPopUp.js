@@ -9,7 +9,7 @@ const SignupPopUp = () => {
   useEffect(() => {
     setTimeout(() => {
       setOpen(true);
-    }, 10000);
+    }, 45000);
   }, []);
   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);

@@ -8,7 +8,7 @@ const SignUp = (props) => {
     setAuthMode(authMode === "signin" ? "signup" : "signin");
   };
 
-  if (authMode === "signin") {
+  if (authMode === "signup") {
     return (
       <div className="Auth-form-container">
         <form className="Auth-form">
@@ -51,17 +51,19 @@ const SignUp = (props) => {
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Sign Up</h3>
-          <div className="text-center">
+          <h3 className="Auth-form-title">
+            For Free career consultation please drop{" "}
+          </h3>
+          {/* <div className="text-center">
             Already registered?{""}
             <button className="btn btn-link" onClick={changeAuthMode}>
               Sign In
             </button>
-          </div>
+          </div> */}
           <div className="form-group mt-3">
             <label>Full Name</label>
             <input
-              type="email"
+              type="text"
               className="form-control mt-1"
               placeholder="e.g Jane Doe"
             />
@@ -75,15 +77,15 @@ const SignUp = (props) => {
             />
           </div>
           <div className="form-group mt-3">
-            <label>Password</label>
+            <label>Phone no.</label>
             <input
-              type="password"
+              type="text"
               className="form-control mt-1"
-              placeholder="Password"
+              placeholder="Phone no."
             />
           </div>
           <div className="d-grid gap-2 mt-3">
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="ModalBtn btn ">
               Submit
             </button>
           </div>
