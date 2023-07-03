@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import "./LoginStyle.css";
-import SignUp from "./SignUp";
+import CModal from "./ConsultModal";
 
-const SignupPopUp = () => {
+const ModalPopUp = () => {
   const [open, setOpen] = useState(false);
   useEffect(() => {
     setTimeout(() => {
@@ -25,10 +25,10 @@ const SignupPopUp = () => {
         center
         blockScroll={false}
       >
-        <SignUp />
+        <CModal />
       </Modal>
     </div>
   );
 };
 
-export default SignupPopUp;
+export default ModalPopUp;

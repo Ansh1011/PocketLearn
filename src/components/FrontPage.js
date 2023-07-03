@@ -9,13 +9,13 @@ import HomepageSec5 from "./Layout/HomepageLayouts/HomepageSec5";
 import HomepageSec8 from "./Layout/HomepageLayouts/HomepageSec8";
 import HomepageSec9 from "./Layout/HomepageLayouts/HomepageSec9";
 import HomepageSec10 from "./Layout/HomepageLayouts/HomepageSec10";
-import SignupPopUp from "./Layout/Auth/SignupPopUp";
+import ModalPopUp from "./Layout/Auth/ModalPopUp";
 
 const FrontPage = () => {
   return (
     <div>
       <Header />
-      <SignupPopUp />
+      <ModalPopUp />
       <HomepageSec1 />
       <HomepageSec2 />
       <HomepageSec3 />

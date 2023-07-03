@@ -229,9 +229,12 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <button className="HeaderBtn" type="submit">
+        {/* <button className="HeaderBtn" type="submit">
           Get Started
-        </button>
+        </button> */}
+        <NavLink to="/login-register" className="HeaderBtn btn">
+          Get Started
+        </NavLink>
       </div>
     </nav>
   );
