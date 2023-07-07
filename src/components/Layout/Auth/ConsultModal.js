@@ -5,9 +5,7 @@ const ConsultModal = (props) => {
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">
-            For Free career consultation please drop{" "}
-          </h3>
+          <h3 className="Auth-form-title">Want a free consultation? </h3>
           {/* <div className="text-center">
             Already registered?{""}
             <button className="btn btn-link" onClick={changeAuthMode}>
@@ -36,6 +34,15 @@ const ConsultModal = (props) => {
               type="text"
               className="form-control mt-1"
               placeholder="Phone no."
+            />
+          </div>
+          <div className="form-group mt-3">
+            <label>Your Query</label>
+            <textarea
+              className="form-control mt-1"
+              rows="2"
+              cols="20"
+              name="description"
             />
           </div>
           <div className="d-grid gap-2 mt-3">

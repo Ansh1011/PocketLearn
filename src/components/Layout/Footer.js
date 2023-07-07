@@ -1,7 +1,7 @@
 import React from "react";
 import "../Layout/LayoutStyles/FooterStyle.css";
 import twitter from "../../images/icon/tt.png";
-import logo from "../../images/icon/favicon.png";
+import logo from "../../images/icon/logo_vishal_02.png";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
                 >
                   <img
                     style={{
-                      height: "2.5rem",
+                      height: "3.5rem",
                       maxWidth: "inherit",
                       marginRight: "0.5rem",
                     }}

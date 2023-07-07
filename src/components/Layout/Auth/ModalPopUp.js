@@ -23,7 +23,7 @@ const ModalPopUp = () => {
         open={open}
         onClose={onCloseModal}
         center
-        blockScroll={false}
+        // blockScroll={false}
       >
         <CModal />
       </Modal>

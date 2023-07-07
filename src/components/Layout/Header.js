@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "../Layout/LayoutStyles/HeaderStyle.css";
-import logo from "../../images/icon/favicon.png";
+import logo from "../../images/icon/logo_vishal_02.png";
 import rightArrow from "../../images/icon/right-arrow.png";
 import { NavLink } from "react-router-dom";
 
@@ -20,7 +20,7 @@ const Header = () => {
           src={logo}
           alt=""
           style={{
-            height: "2.5rem",
+            height: "4rem",
             maxWidth: "inherit",
             marginRight: "0.5rem",
           }}
