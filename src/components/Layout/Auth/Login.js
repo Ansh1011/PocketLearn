@@ -30,7 +30,9 @@ export const Login = (props) => {
           id="password"
           name="password"
         />
-        <button type="submit">Log In</button>
+        <button className="loginButton" type="submit">
+          Log In
+        </button>
       </form>
       <button
         className="link-btn"

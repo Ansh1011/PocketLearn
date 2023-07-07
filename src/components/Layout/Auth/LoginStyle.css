@@ -82,14 +82,14 @@
   border-radius: 10px;
 }
 
-.LoginRegister button {
+.LoginRegister Button {
   border: none;
   background-color: rgb(191, 16, 255);
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .LoginRegister .link-btn {
