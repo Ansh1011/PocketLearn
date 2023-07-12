@@ -3,8 +3,10 @@ import React, { useState } from "react";
 import "./LoginNew.css";
 import { Login } from "./Login";
 import { Register } from "./Register";
+import logo from "../../../images/icon/logo_vishal_02.png";
 
 import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
+import { NavLink } from "react-router-dom";
 
 const LoginRegister = () => {
   const [currentForm, setCurrentForm] = useState("login");
@@ -27,7 +29,20 @@ const LoginRegister = () => {
           <div className="row full-height justify-content-center">
             <div className="col-12 text-center align-self-center py-5">
               <div className="section pb-5 pt-5 pt-sm-2 text-center">
-                <h6 className="mb-0 pb-3">
+                <NavLink className="navbar-brand" href="#" to="/">
+                  <img
+                    className="logoImg"
+                    src={logo}
+                    alt=""
+                    style={{
+                      height: "4rem",
+                      maxWidth: "inherit",
+                      marginRight: "0.5rem",
+                    }}
+                  />
+                  PocketLearn
+                </NavLink>
+                <h6 className="h6class mb-0 pb-3">
                   <span>Log In </span>
                   <span>Sign Up</span>
                 </h6>
@@ -43,7 +58,19 @@ const LoginRegister = () => {
                     <div className="card-front">
                       <div className="center-wrap">
                         <div className="section text-center">
-                          <h4 className="mb-4 pb-3">Log In</h4>
+                          <h4 className="mb-4 pb-3">Welcome Back</h4>
+                          <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
+                            <GoogleLogin
+                              onSuccess={(credentialResponse) => {
+                                console.log(credentialResponse);
+                              }}
+                              onError={() => {
+                                console.log("Login Failed");
+                              }}
+                            />
+                          </GoogleOAuthProvider>
+                          <br />
+                          <p>or Login with Email.</p>
                           <div className="form-group">
                             <input
                               type="email"
@@ -66,16 +93,7 @@ const LoginRegister = () => {
                           >
                             Login
                           </a>
-                          <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
-                            <GoogleLogin
-                              onSuccess={(credentialResponse) => {
-                                console.log(credentialResponse);
-                              }}
-                              onError={() => {
-                                console.log("Login Failed");
-                              }}
-                            />
-                          </GoogleOAuthProvider>
+
                           <p className="mb-0 mt-4 text-center">
                             <a
                               href="https://www.web-leb.com/code"
@@ -90,7 +108,22 @@ const LoginRegister = () => {
                     <div className="card-back">
                       <div className="center-wrap">
                         <div className="section text-center">
-                          <h4 className="mb-3 pb-3">Sign Up</h4>
+                          <h4 className="h4class mb-3 pb-3">New here</h4>
+                          <p>
+                            Sign up and discover a great amount of new
+                            opportunities
+                          </p>
+                          <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
+                            <GoogleLogin
+                              onSuccess={(credentialResponse) => {
+                                console.log(credentialResponse);
+                              }}
+                              onError={() => {
+                                console.log("Login Failed");
+                              }}
+                            />
+                          </GoogleOAuthProvider>
+                          <br />
                           <div className="form-group">
                             <input
                               type="text"
@@ -129,16 +162,7 @@ const LoginRegister = () => {
                           >
                             Register
                           </a>
-                          <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
-                            <GoogleLogin
-                              onSuccess={(credentialResponse) => {
-                                console.log(credentialResponse);
-                              }}
-                              onError={() => {
-                                console.log("Login Failed");
-                              }}
-                            />
-                          </GoogleOAuthProvider>
+                          <div className="GauthBtn"></div>
                         </div>
                       </div>
                     </div>
