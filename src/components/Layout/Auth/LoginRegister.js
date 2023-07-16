@@ -24,11 +24,11 @@ const LoginRegister = () => {
     //   )}
     // </div>
     <div className="loginBody">
-      <div className="section">
+      <div className="LoginSection">
         <div className="container">
           <div className="row full-height justify-content-center">
             <div className="col-12 text-center align-self-center py-5">
-              <div className="section pb-5 pt-5 pt-sm-2 text-center">
+              <div className="LoginSection pb-5 pt-5 pt-sm-2 text-center">
                 <NavLink className="navbar-brand" href="#" to="/">
                   <img
                     className="logoImg"
@@ -57,7 +57,7 @@ const LoginRegister = () => {
                   <div className="card-3d-wrapper">
                     <div className="card-front">
                       <div className="center-wrap">
-                        <div className="section text-center">
+                        <div className="LoginSection text-center">
                           <h4 className="mb-4 pb-3">Welcome Back</h4>
                           <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
                             <GoogleLogin
@@ -70,7 +70,7 @@ const LoginRegister = () => {
                             />
                           </GoogleOAuthProvider>
                           <br />
-                          <p>or Login with Email.</p>
+                          <p className="loginTxt">or Login with Email.</p>
                           <div className="form-group">
                             <input
                               type="email"
@@ -107,9 +107,9 @@ const LoginRegister = () => {
                     </div>
                     <div className="card-back">
                       <div className="center-wrap">
-                        <div className="section text-center">
+                        <div className="LoginSection text-center">
                           <h4 className="h4class mb-3 pb-3">New here</h4>
-                          <p>
+                          <p className="loginTxt">
                             Sign up and discover a great amount of new
                             opportunities
                           </p>

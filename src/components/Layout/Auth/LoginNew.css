@@ -21,6 +21,9 @@ p {
   font-weight: 500;
   font-size: 14px;
 }
+.loginTxt {
+  opacity: 0.8;
+}
 .h4class {
   font-weight: 600;
   margin-top: 5px;
@@ -32,7 +35,7 @@ p {
   padding: 0 20px;
   font-weight: 700;
 }
-.section {
+.LoginSection {
   position: relative;
   width: 100%;
   display: block;
