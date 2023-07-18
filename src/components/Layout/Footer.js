@@ -2,6 +2,7 @@ import React from "react";
 import "../Layout/LayoutStyles/FooterStyle.css";
 import twitter from "../../images/icon/tt.png";
 import logo from "../../images/icon/logo_vishal_02.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,9 +13,10 @@ const Footer = () => {
           <div className="main-footer-container">
             <div className="description-container">
               <div data-v-3fa35a1e className="main-logo-container">
-                <a
+                <NavLink
                   data-v-3fa35a1e
-                  href="/"
+                  to="/"
+                  href="#"
                   aria-current="page"
                   className="logo nuxt-link-exact-active nuxt-link-active"
                 >
@@ -30,13 +32,13 @@ const Footer = () => {
                     className="main-logo"
                   />
                   PocketLearn
-                </a>
+                </NavLink>
               </div>{" "}
               <div className="description">
                 Educational experiences that transform lives in a community-led
                 learning environment
               </div>
-              <div className="socials">
+              <div className="socials" style={{ marginTop: "10px" }}>
                 <a
                   href="https://www.linkedin.com/company/airtribe/"
                   target="_blank"
@@ -110,14 +112,6 @@ const Footer = () => {
               </div>{" "}
               <div className="links">
                 <a
-                  href="https://airtribe.live/launchpad/course"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="item"
-                >
-                  <div>Teach on Airtribe</div>
-                </a>{" "}
-                <a
                   href="https://airtribe.live/about-us"
                   target="_blank"
                   rel="noreferrer noopener"
@@ -139,12 +133,19 @@ const Footer = () => {
               <div className="message">
                 Be the first in line to know about our latest courses
               </div>{" "}
-              <button className="sign-up">Sign up</button>
+              {/* <button className="sign-up">Sign up</button> */}
+              <NavLink
+                to="/login-register"
+                className="btn sign-up"
+                style={{ width: "108.7px" }}
+              >
+                Sign Up
+              </NavLink>
             </div>
           </div>
         </div>{" "}
         <div data-v-a3f518b0 className="copyright-container">
-          © 2023 Airtribe Inc.
+          © 2023 PocketLearn Inc.
         </div>
       </footer>
     </div>

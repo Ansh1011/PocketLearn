@@ -3,7 +3,9 @@
 }
 .navbar {
   padding: 0.5% 7% 0.5%;
-  max-width: 100rem;
+  /* max-width: 100rem; */
+  box-sizing: border-box;
+  margin: 0px;
   justify-content: space-between;
   min-height: 5rem;
 }

@@ -27,7 +27,7 @@ const LoginRegister = () => {
       <div className="LoginSection">
         <div className="container">
           <div className="row full-height justify-content-center">
-            <div className="col-12 text-center align-self-center py-5">
+            <div className="col-12 text-center align-self-center py-3">
               <div className="LoginSection pb-5 pt-5 pt-sm-2 text-center">
                 <NavLink className="navbar-brand" href="#" to="/">
                   <img

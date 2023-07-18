@@ -4,8 +4,10 @@
   background: linear-gradient(90deg, #171421, #6f8fd3 50%, #171421);
   margin: 6.25rem 0;
 }
+
 .hiring-box {
   margin: 0 3.25rem;
+
   padding: 3.25rem 4rem;
   background: linear-gradient(254.76deg, #15528b -24.86%, #171e40 104.85%);
   box-shadow: 1px 1px 2.5rem rgba(22, 66, 116, 0.22);
