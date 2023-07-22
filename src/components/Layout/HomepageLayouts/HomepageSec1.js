@@ -13,16 +13,9 @@ const HomepageSec1 = () => {
               Social learning and expert-led programs to start, transition or
               boost your career.
             </p>
-
-            <button
-              type="button"
-              className="btn btn-outline-light btn-lg Download-button"
-            >
-              <i className="fa-brands fa-google-play" /> Download
-            </button>
           </div>
           <div className="image-col col-lg-6 col-md-12">
-            <img className="title-image" src={logo} alt="iphone-mockup" />
+            <img className="title-image" src={logo} alt="my-gif" />
           </div>
         </div>
       </div>

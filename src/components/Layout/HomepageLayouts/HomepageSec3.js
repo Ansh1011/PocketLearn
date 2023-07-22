@@ -2,364 +2,255 @@ import React from "react";
 import "../LayoutStyles/HomepageSec3.css";
 const HomepageSec3 = () => {
   return (
-    <div id="events">
-      <h2 className="events-title">Upskill with free masterclasses</h2>
-
-      <div className="events">
-        <div className="events-div" data-v-6b16e274>
-          <a
-            data-v-6b16e274
-            href="https://airtribe.live/community/workshops/Y5P5TNZQUXWI"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="main-event-card-container"
-          >
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="free">
-                FREE
-              </div>{" "}
-              <div data-v-6b16e274 className="image-container">
-                <img
-                  data-v-6b16e274
-                  className="lazyLoad isLoaded"
-                  src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/20/QNBDGZQGQJ704FWD_optimized.png"
-                />{" "}
-                <div data-v-6b16e274 className="tags-container">
-                  <div
-                    data-v-79862d12
-                    data-v-6b16e274
-                    className="event-tags-container over-card"
-                  >
-                    <div
-                      data-v-79862d12
-                      className="tag"
-                      style={{
-                        background: "rgb(237, 232, 247)",
-                        color: "rgb(83, 50, 152)",
-                      }}
-                    >
-                      Product
-                    </div>
-                  </div>
-                </div>{" "}
-                <div data-v-6b16e274 className="cta-container">
-                  <div data-v-6b16e274 className="cta">
-                    Register now
-                  </div>
-                </div>
-              </div>{" "}
-              <div data-v-6b16e274 className="event-time">
-                June 22, Thursday | 8:30 PM
-              </div>{" "}
-              <div data-v-6b16e274 className="event-title">
-                Product Management Launchpad Infosession
-              </div>
-            </div>{" "}
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="instructor-details">
-                <div data-v-6b16e274 className="instructor-image">
-                  <img
-                    data-v-6b16e274
-                    alt="instructor-image"
-                    className="lazyLoad isLoaded"
-                    src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/19/PUC86YQGZ103PO64_optimized.png"
-                  />
-                </div>{" "}
-                <div data-v-6b16e274>
-                  <div data-v-6b16e274 className="instructor-name">
-                    Navneet Sharma
-                  </div>{" "}
-                  <div data-v-6b16e274 className="instructor-role">
-                    Co-founder @ Airtribe |Ex-Director of Product @ Unacademy
-                  </div>
-                </div>
-              </div>
+    <div
+      className="rbt-categories-area bg-color-white rbt-section-gapBottom"
+      style={{ marginTop: "2%", marginBottom: "5%" }}
+    >
+      {/* <div class="rbt-banner-area rbt-banner-4 bg_image header-transperent-spacer" style="background-image: url('assets/images/bg/grow_skills.png');"> */}
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="section-title text-center">
+              {/* <span class="subtitle bg-primary-opacity">CATEGORIES</span> */}
+              <h2 className="Hp3title">
+                Why <span className="Hp3span">PocketLearn ?</span>
+              </h2>
             </div>
-          </a>
+          </div>
         </div>
-        <div className="events-div" data-v-6b16e274>
-          <a
-            data-v-6b16e274
-            href="https://airtribe.live/community/workshops/JSN8NR0SDS7F"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="main-event-card-container"
-          >
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="free">
-                FREE
-              </div>{" "}
-              <div data-v-6b16e274 className="image-container">
-                <img
-                  data-v-6b16e274
-                  className="lazyLoad isLoaded"
-                  src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/16/AFHNTBWIOGKBVK0H_optimized.png"
-                />{" "}
-                <div data-v-6b16e274 className="tags-container">
-                  <div
-                    data-v-79862d12
-                    data-v-6b16e274
-                    className="event-tags-container over-card"
-                  >
-                    <div
-                      data-v-79862d12
-                      className="tag"
-                      style={{
-                        background: "rgb(237, 232, 247)",
-                        color: "rgb(83, 50, 152)",
-                      }}
-                    >
-                      Product
-                    </div>
-                  </div>
-                </div>{" "}
-                <div data-v-6b16e274 className="cta-container">
-                  <div data-v-6b16e274 className="cta">
-                    Register now
-                  </div>
-                </div>
-              </div>{" "}
-              <div data-v-6b16e274 className="event-time">
-                June 24, Saturday | 12:00 PM
-              </div>{" "}
-              <div data-v-6b16e274 className="event-title">
-                Product Discovery: Leveraging User Research and Data Analysis
-              </div>
-            </div>{" "}
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="instructor-details">
-                <div data-v-6b16e274 className="instructor-image">
+        <div className="row g-5 mt--20">
+          {/* Start Category Box Layout  */}
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <a className="rbt-cat-box rbt-cat-box-1 text-center">
+              <div
+                className="inner"
+                style={{ background: "var(--color-card-1) !important" }}
+              >
+                <div className="icons">
                   <img
-                    data-v-6b16e274
-                    alt="instructor-image"
-                    className="lazyLoad isLoaded"
-                    src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/16/M1GYRNEJ10FUEATA_optimized.jpg"
+                    src="https://growdataskills.com/assets/images/whygds/videoconference.png"
+                    alt="Icons Images"
                   />
-                </div>{" "}
-                <div data-v-6b16e274>
-                  <div data-v-6b16e274 className="instructor-name">
-                    Jozzire Lyngdoh
-                  </div>{" "}
-                  <div data-v-6b16e274 className="instructor-role">
-                    Principal Product Manager, Khatabook
-                  </div>
                 </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="events-div" data-v-6b16e274>
-          <a
-            data-v-6b16e274
-            href="https://airtribe.live/community/workshops/YC8K67HK5T0Z"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="main-event-card-container"
-          >
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="free">
-                FREE
-              </div>{" "}
-              <div data-v-6b16e274 className="image-container">
-                <img
-                  data-v-6b16e274
-                  className="lazyLoad isLoaded"
-                  src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/07/QVTNQAKHSNAJW6AX_optimized.png"
-                />{" "}
-                <div data-v-6b16e274 className="tags-container">
-                  <div
-                    data-v-79862d12
-                    data-v-6b16e274
-                    className="event-tags-container over-card"
-                  >
-                    <div
-                      data-v-79862d12
-                      className="tag"
-                      style={{
-                        background: "rgb(237, 232, 247)",
-                        color: "rgb(83, 50, 152)",
-                      }}
+                <div className="content">
+                  <h5 className="title">Live Sessions</h5>
+                  <div className="read-more-btn">
+                    <span
+                      className="rbt-btn-link"
+                      style={{ textAlign: "justify" }}
                     >
-                      Product
-                    </div>
-                  </div>
-                </div>{" "}
-                <div data-v-6b16e274 className="cta-container">
-                  <div data-v-6b16e274 className="cta">
-                    Register now
+                      Unlock your potential with our interactive live classes –
+                      where learning comes alive!
+                    </span>
                   </div>
                 </div>
-              </div>{" "}
-              <div data-v-6b16e274 className="event-time">
-                June 25, Sunday | 12:00 PM
-              </div>{" "}
-              <div data-v-6b16e274 className="event-title">
-                Acing RCA questions in Product Interviews
               </div>
-            </div>{" "}
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="instructor-details">
-                <div data-v-6b16e274 className="instructor-image">
+            </a>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <a className="rbt-cat-box rbt-cat-box-1 text-center">
+              <div
+                className="inner"
+                style={{ background: "var(--color-card-2) !important" }}
+              >
+                <div className="icons">
                   <img
-                    data-v-6b16e274
-                    alt="instructor-image"
-                    className="lazyLoad isLoaded"
-                    src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/07/7A9DQTJGMVQ7O6UD_optimized.jpg"
+                    src="https://growdataskills.com/assets/images/whygds/confused.png"
+                    alt="Icons Images"
                   />
-                </div>{" "}
-                <div data-v-6b16e274>
-                  <div data-v-6b16e274 className="instructor-name">
-                    Malay Krishna
-                  </div>{" "}
-                  <div data-v-6b16e274 className="instructor-role">
-                    Lead Product Manager, Vyapar
-                  </div>
                 </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="events-div" data-v-6b16e274>
-          <a
-            data-v-6b16e274
-            href="https://airtribe.live/community/workshops/DGZKR1Q39BH5"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="main-event-card-container"
-          >
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="free">
-                FREE
-              </div>{" "}
-              <div data-v-6b16e274 className="image-container">
-                <img
-                  data-v-6b16e274
-                  className="lazyLoad isLoaded"
-                  src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/20/KG6BLNJTXYLVQXWL_optimized.png"
-                />{" "}
-                <div data-v-6b16e274 className="tags-container">
-                  <div
-                    data-v-79862d12
-                    data-v-6b16e274
-                    className="event-tags-container over-card"
-                  >
-                    <div
-                      data-v-79862d12
-                      className="tag"
-                      style={{
-                        background: "rgb(237, 232, 247)",
-                        color: "rgb(83, 50, 152)",
-                      }}
+                <div className="content">
+                  <h5 className="title">Doubt Solving</h5>
+                  <div className="read-more-btn">
+                    <span
+                      className="rbt-btn-link"
+                      style={{ textAlign: "justify" }}
                     >
-                      Product
-                    </div>
-                  </div>
-                </div>{" "}
-                <div data-v-6b16e274 className="cta-container">
-                  <div data-v-6b16e274 className="cta">
-                    Register now
+                      Instantly conquer doubts in live classes and telegram –
+                      your fast track to success!
+                    </span>
                   </div>
                 </div>
-              </div>{" "}
-              <div data-v-6b16e274 className="event-time">
-                June 29, Thursday | 7:30 PM
-              </div>{" "}
-              <div data-v-6b16e274 className="event-title">
-                How to break into Product Management
               </div>
-            </div>{" "}
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="instructor-details">
-                <div data-v-6b16e274 className="instructor-image">
+            </a>
+          </div>
+          {/* End Category Box Layout  */}
+          {/* Start Category Box Layout  */}
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <a className="rbt-cat-box rbt-cat-box-1 text-center">
+              <div
+                className="inner"
+                style={{ background: "var(--color-card-3) !important" }}
+              >
+                <div className="icons">
                   <img
-                    data-v-6b16e274
-                    alt="instructor-image"
-                    className="lazyLoad isLoaded"
-                    src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/20/ZJX4JNG7UUS361EW_optimized.jpeg"
+                    src="https://growdataskills.com/assets/images/whygds/project.png"
+                    alt="Icons Images"
                   />
-                </div>{" "}
-                <div data-v-6b16e274>
-                  <div data-v-6b16e274 className="instructor-name">
-                    Tanya Singhania
-                  </div>{" "}
-                  <div data-v-6b16e274 className="instructor-role">
-                    Senior Product Manager, American Express
-                  </div>
                 </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="events-div" data-v-6b16e274>
-          <a
-            data-v-6b16e274
-            href="https://airtribe.live/community/workshops/ZIJCTDY54F21"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="main-event-card-container"
-          >
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="free">
-                FREE
-              </div>{" "}
-              <div data-v-6b16e274 className="image-container">
-                <img
-                  data-v-6b16e274
-                  className="lazyLoad isLoaded"
-                  src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/20/3Q7KF6VHMEZ09CPB_optimized.png"
-                />{" "}
-                <div data-v-6b16e274 className="tags-container">
-                  <div
-                    data-v-79862d12
-                    data-v-6b16e274
-                    className="event-tags-container over-card"
-                  >
-                    <div
-                      data-v-79862d12
-                      className="tag"
-                      style={{
-                        background: "rgb(253, 240, 200)",
-                        color: "rgb(146, 110, 5)",
-                      }}
+                <div className="content">
+                  <h5 className="title">Industry Level Projects</h5>
+                  <div className="read-more-btn">
+                    <span
+                      className="rbt-btn-link"
+                      style={{ textAlign: "justify" }}
                     >
-                      Engineering
-                    </div>
-                  </div>
-                </div>{" "}
-                <div data-v-6b16e274 className="cta-container">
-                  <div data-v-6b16e274 className="cta">
-                    Register now
+                      Master real-world skills with our industry-level projects
+                      – your gateway to career success!
+                    </span>
                   </div>
                 </div>
-              </div>{" "}
-              <div data-v-6b16e274 className="event-time">
-                July 1, Saturday | 12:00 PM
-              </div>{" "}
-              <div data-v-6b16e274 className="event-title">
-                DSA: Sorting Algorithms 101
               </div>
-            </div>{" "}
-            <div data-v-6b16e274>
-              <div data-v-6b16e274 className="instructor-details">
-                <div data-v-6b16e274 className="instructor-image">
+            </a>
+          </div>
+          {/* End Category Box Layout  */}
+          {/* Start Category Box Layout  */}
+          {/* End Category Box Layout  */}
+          {/* Start Category Box Layout  */}
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <a className="rbt-cat-box rbt-cat-box-1 text-center">
+              <div
+                className="inner"
+                style={{ background: "var(--color-card-4) !important" }}
+              >
+                <div className="icons">
                   <img
-                    data-v-6b16e274
-                    alt="instructor-image"
-                    className="lazyLoad isLoaded"
-                    src="https://space-mycohort-web.sgp1.cdn.digitaloceanspaces.com/2023/06/20/V9EQX9B4HGR8SMXX_optimized.jpg"
+                    src="https://growdataskills.com/assets/images/whygds/guidance.png"
+                    alt="Icons Images"
                   />
-                </div>{" "}
-                <div data-v-6b16e274>
-                  <div data-v-6b16e274 className="instructor-name">
-                    Aadarsh Mohta
-                  </div>{" "}
-                  <div data-v-6b16e274 className="instructor-role">
-                    Member Of Technical Staff, Nutanix
+                </div>
+                <div className="content">
+                  <h5 className="title">Career Guidance</h5>
+                  <div className="read-more-btn">
+                    <span
+                      className="rbt-btn-link"
+                      style={{ textAlign: "justify" }}
+                    >
+                      Ace your career with resume enhancement, interview
+                      mastery, and LinkedIn optimization!
+                    </span>
                   </div>
                 </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
+          {/* End Category Box Layout  */}
+          {/* Start Category Box Layout  */}
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <a className="rbt-cat-box rbt-cat-box-1 text-center">
+              <div
+                className="inner"
+                style={{ background: "var(--color-card-4) !important" }}
+              >
+                <div className="icons">
+                  <img
+                    src="https://growdataskills.com/assets/images/whygds/discussion.png"
+                    alt="Icons Images"
+                  />
+                </div>
+                <div className="content">
+                  <h5 className="title">Mentorship</h5>
+                  <div className="read-more-btn">
+                    <span
+                      className="rbt-btn-link"
+                      style={{ textAlign: "justify", letterSpacing: 1 }}
+                    >
+                      Empower your journey with dedicated 1:1 mentorship –
+                      anytime you need it for ultimate growth!
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {/* End Category Box Layout  */}
+          {/* Start Category Box Layout  */}
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <a className="rbt-cat-box rbt-cat-box-1 text-center">
+              <div
+                className="inner"
+                style={{ background: "var(--color-card-3) !important" }}
+              >
+                <div className="icons">
+                  <img
+                    src="https://growdataskills.com/assets/images/whygds/quiz.png"
+                    alt="Icons Images"
+                  />
+                </div>
+                <div className="content">
+                  <h5 className="title">Quiz &amp; Assignments</h5>
+                  <div className="read-more-btn">
+                    <span
+                      className="rbt-btn-link"
+                      style={{ textAlign: "justify", letterSpacing: 1 }}
+                    >
+                      Boost your mastery with captivating quizzes and
+                      assignments after each module!
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {/* End Category Box Layout  */}
+          {/* Start Category Box Layout  */}
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <a className="rbt-cat-box rbt-cat-box-1 text-center">
+              <div
+                className="inner"
+                style={{ background: "var(--color-card-2) !important" }}
+              >
+                <div className="icons">
+                  <img
+                    src="https://growdataskills.com/assets/images/category/smartphone.png"
+                    alt="Icons Images"
+                  />
+                </div>
+                <div className="content">
+                  <h5 className="title">Beginner Friendly</h5>
+                  <div className="read-more-btn">
+                    <span
+                      className="rbt-btn-link"
+                      style={{ textAlign: "justify" }}
+                    >
+                      Unite with a passionate community of like-minded learners
+                      – together, we'll conquer data skills!
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {/* End Category Box Layout  */}
+          {/* Start Category Box Layout  */}
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <a className="rbt-cat-box rbt-cat-box-1 text-center">
+              <div
+                className="inner"
+                style={{ background: "var(--color-card-1) !important" }}
+              >
+                <div className="icons">
+                  <img
+                    src="https://growdataskills.com/assets/images/whygds/viral-marketing.png"
+                    alt="Icons Images"
+                  />
+                </div>
+                <div className="content">
+                  <h5 className="title">Community Learning</h5>
+                  <div className="read-more-btn">
+                    <span
+                      className="rbt-btn-link"
+                      style={{ textAlign: "justify" }}
+                    >
+                      Unite with a vibrant, passionate community of like-minded
+                      learners – together, we'll conquer world of data!
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {/* End Category Box Layout  */}
         </div>
       </div>
     </div>
