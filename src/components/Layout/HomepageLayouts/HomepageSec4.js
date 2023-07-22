@@ -59,9 +59,6 @@ const HomepageSec4 = () => {
                 className="card-img-top ImgCard"
                 alt="..."
               />
-              <div className="card-body">
-                <h5 className="card-title">Nehal</h5>
-              </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
               <img
