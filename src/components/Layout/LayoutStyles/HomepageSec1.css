@@ -9,11 +9,11 @@ body {
 #title {
   background-image: linear-gradient(
       rgba(23, 20, 33, 0.984),
-      rgba(62, 17, 126, 0.842)
+      rgba(62, 17, 126, 0.827)
     ),
     url("https://www.airtribe.live/_nuxt/img/grid.82cf02e.svg");
   color: rgb(255, 255, 255);
-  padding: 100px 8% 10%;
+  padding: 120px 8% 10%;
 }
 
 /* #title.container-fluid{

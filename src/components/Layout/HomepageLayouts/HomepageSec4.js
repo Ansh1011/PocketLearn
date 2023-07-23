@@ -3,11 +3,14 @@ import "../LayoutStyles/HomepageSec4.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import personImg1 from "../../../images/creator/humanNotExist1.jpg";
-import personImg2 from "../../../images/creator/humanNotExist2.jpg";
-import personImg3 from "../../../images/creator/humanNotExist3.jpg";
-import personImg4 from "../../../images/creator/humanNotExist4.jpg";
-import personImg5 from "../../../images/creator/roshan1.jpeg";
+import amazonImg from "../../../images/creator/amazon.png";
+import GoogleImg from "../../../images/creator/google.png";
+import metaImg from "../../../images/creator/meta.png";
+import olaImg from "../../../images/creator/Ola.png";
+import paytmImg from "../../../images/creator/paytm.png";
+import shopifyImg from "../../../images/creator/shopify.png";
+import uberImg from "../../../images/creator/shopify.png";
+
 import HomepageSec5 from "./HomepageSec5";
 import HomepageSec6 from "./HomepageSec6";
 import HomepageSec7 from "./HomepageSec7";
@@ -54,45 +57,29 @@ const HomepageSec4 = () => {
         <div className="container">
           <Slider {...settings}>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg1}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={amazonImg} className="card-img-top ImgCard" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Amazon</h5>
+              </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg2}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={amazonImg} className="card-img-top ImgCard" alt="..." />
+              <h5 className="card-title">Amazon</h5>
             </div>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg3}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={GoogleImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Rishab</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg4}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={metaImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">sancheeta</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg5}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={olaImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Roshan</h5>
               </div>
@@ -100,28 +87,20 @@ const HomepageSec4 = () => {
           </Slider>
           <Slider {...settings}>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg1}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={amazonImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Nehal</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg2}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={paytmImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Abhishek</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src={personImg3}
+                src={shopifyImg}
                 className="card-img-top ImgCard"
                 alt="..."
               />
@@ -130,21 +109,13 @@ const HomepageSec4 = () => {
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg4}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={uberImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">sancheeta</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src={personImg5}
-                className="card-img-top ImgCard"
-                alt="..."
-              />
+              <img src={uberImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Roshan</h5>
               </div>

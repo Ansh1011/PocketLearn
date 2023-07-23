@@ -59,7 +59,6 @@ const HomepageSec8 = () => {
             </div>
           </div>
         </div>
-        ::after
       </div>
     </div>
   );

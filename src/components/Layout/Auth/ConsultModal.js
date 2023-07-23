@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import rocketImg from "../../../images/icon/rocket.png";
 
 const ConsultModal = (props) => {
   return (
@@ -6,12 +7,13 @@ const ConsultModal = (props) => {
       <form className="Auth-form">
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Want a free consultation? </h3>
-          {/* <div className="text-center">
-            Already registered?{""}
-            <button className="btn btn-link" onClick={changeAuthMode}>
-              Sign In
-            </button>
-          </div> */}
+
+          <img
+            className="modalImg"
+            src={rocketImg}
+            alt=""
+            style={{ width: "100px", height: "100px", marginLeft: "30%" }}
+          />
           <div className="form-group mt-3">
             <label>Full Name</label>
             <input

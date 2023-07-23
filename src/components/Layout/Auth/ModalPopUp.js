@@ -4,15 +4,16 @@ import { Modal } from "react-responsive-modal";
 import "./LoginStyle.css";
 import CModal from "./ConsultModal";
 
-const ModalPopUp = () => {
+const ModalPopUp = (props) => {
   const [open, setOpen] = useState(false);
   useEffect(() => {
     setTimeout(() => {
       setOpen(true);
-    }, 45000);
+    }, 1000);
   }, []);
-  const onOpenModal = () => setOpen(true);
-  const onCloseModal = () => setOpen(false);
+
+  // const onOpenModal = () => setOpen(true);
+  // const onCloseModal = () => setOpen(false);
 
   return (
     <div>
@@ -20,8 +21,8 @@ const ModalPopUp = () => {
         classNames={{
           modal: "customModal",
         }}
-        open={open}
-        onClose={onCloseModal}
+        open={props.open}
+        onClose={props.onClose}
         center
         // blockScroll={false}
       >

@@ -9,10 +9,7 @@ const HomepageSec1 = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12">
             <h1>PocketLearn for professional excellence</h1>
-            <p>
-              Social learning and expert-led programs to start, transition or
-              boost your career.
-            </p>
+            <h4>🔨 Learn Practically, Excel through Projects! 🚀</h4>
           </div>
           <div className="image-col col-lg-6 col-md-12">
             <img className="title-image" src={logo} alt="my-gif" />

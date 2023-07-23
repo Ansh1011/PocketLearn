@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../LayoutStyles/HomepageSec10.css";
+import ModalPopUp from "../Auth/ModalPopUp";
 
 const HomepageSec10 = () => {
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setOpen(true);
+    }, 45000);
+  }, []);
+
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
   return (
     <div>
       <div className="hiring-section">
@@ -28,8 +38,9 @@ const HomepageSec10 = () => {
             <button
               data-v-91eb3b7c
               className="desktop button-container default filled primary "
+              onClick={onOpenModal}
             >
-              {/**/} <div data-v-91eb3b7c>Get in touch</div>{" "}
+              <div data-v-91eb3b7c>Get in touch</div>{" "}
               <div data-v-91eb3b7c className="right-icon">
                 <img
                   data-v-91eb3b7c
@@ -40,6 +51,7 @@ const HomepageSec10 = () => {
               </div>{" "}
               {/**/}
             </button>
+            <ModalPopUp open={open} onClose={onCloseModal} />
           </div>{" "}
           <div className="companies-container">
             <img

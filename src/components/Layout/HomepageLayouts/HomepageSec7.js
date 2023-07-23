@@ -22,7 +22,7 @@ const HomepageSec7 = () => {
         <div className="max-width-container">
           <div className="vertical-separator" />{" "}
           <div className="heading">
-            Presenting the <span>Airtribe</span> way!
+            Presenting the <span>PocketLearn</span> way!
           </div>{" "}
           <div className="airtribe-way">
             <div className="item-container odd">

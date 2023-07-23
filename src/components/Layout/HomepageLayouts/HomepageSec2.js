@@ -6,7 +6,7 @@ const HomepageSec2 = () => {
   return (
     <div className="content-container">
       <div className="section-title">
-        Industry-relevant programs to set you apart
+        Industry-relevant Projects to set you apart
       </div>{" "}
       <div className="transition-courses">
         <div>
