@@ -9,7 +9,8 @@ import metaImg from "../../../images/creator/meta.png";
 import olaImg from "../../../images/creator/Ola.png";
 import paytmImg from "../../../images/creator/paytm.png";
 import shopifyImg from "../../../images/creator/shopify.png";
-import uberImg from "../../../images/creator/shopify.png";
+import uberImg from "../../../images/creator/uber.png";
+import meshoImg from "../../../images/creator/mesho.png";
 
 import HomepageSec5 from "./HomepageSec5";
 import HomepageSec6 from "./HomepageSec6";
@@ -21,7 +22,7 @@ const HomepageSec4 = () => {
     dots: false,
     arrows: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -62,40 +63,37 @@ const HomepageSec4 = () => {
                 <h5 className="card-title">Amazon</h5>
               </div>
             </div>
-            <div className="card" style={{ width: "18rem" }}>
-              <img src={amazonImg} className="card-img-top ImgCard" alt="..." />
-              <h5 className="card-title">Amazon</h5>
-            </div>
+
             <div className="card" style={{ width: "18rem" }}>
               <img src={GoogleImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Rishab</h5>
+                <h5 className="card-title">Google</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
               <img src={metaImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">sancheeta</h5>
+                <h5 className="card-title">Meta</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
               <img src={olaImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Roshan</h5>
+                <h5 className="card-title">OLA</h5>
               </div>
             </div>
           </Slider>
           <Slider {...settings}>
             <div className="card" style={{ width: "18rem" }}>
-              <img src={amazonImg} className="card-img-top ImgCard" alt="..." />
+              <img src={meshoImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Nehal</h5>
+                <h5 className="card-title">Mesho</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
               <img src={paytmImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Abhishek</h5>
+                <h5 className="card-title">Paytm</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
@@ -105,19 +103,13 @@ const HomepageSec4 = () => {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Rishab</h5>
+                <h5 className="card-title">Shopify</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>
               <img src={uberImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">sancheeta</h5>
-              </div>
-            </div>
-            <div className="card" style={{ width: "18rem" }}>
-              <img src={uberImg} className="card-img-top ImgCard" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Roshan</h5>
+                <h5 className="card-title">Uber</h5>
               </div>
             </div>
           </Slider>
