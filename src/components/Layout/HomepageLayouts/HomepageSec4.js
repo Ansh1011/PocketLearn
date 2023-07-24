@@ -87,7 +87,7 @@ const HomepageSec4 = () => {
             <div className="card" style={{ width: "18rem" }}>
               <img src={meshoImg} className="card-img-top ImgCard" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Mesho</h5>
+                <h5 className="card-title">Meesho</h5>
               </div>
             </div>
             <div className="card" style={{ width: "18rem" }}>

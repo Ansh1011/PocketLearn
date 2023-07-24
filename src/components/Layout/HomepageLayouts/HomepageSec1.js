@@ -1,6 +1,7 @@
 import React from "react";
 import "../LayoutStyles/HomepageSec1.css";
 import logo from "../../../images/extra/b3.jpg";
+// import StudentImg from "./HomepageImg/HomeImg";
 
 const HomepageSec1 = () => {
   return (

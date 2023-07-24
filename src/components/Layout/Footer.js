@@ -17,6 +17,7 @@ const Footer = () => {
                   data-v-3fa35a1e
                   to="/"
                   href="#"
+                  style={{ textDecoration: "none" }}
                   aria-current="page"
                   className="logo nuxt-link-exact-active nuxt-link-active"
                 >
@@ -39,94 +40,104 @@ const Footer = () => {
                 learning environment
               </div>
               <div className="socials" style={{ marginTop: "10px" }}>
-                <a
+                <NavLink
                   href="https://www.linkedin.com/company/airtribe/"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                 >
                   <img
                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuMjYxMTYgMjIuMDUwMlY4LjQ4ODQ0SDEuNzUzNVYyMi4wNTAySDYuMjYxMTZaTTQuMDA3OTEgNi42MzU3QzUuNTc5ODEgNi42MzU3IDYuNTU4MjQgNS41OTQzMSA2LjU1ODI0IDQuMjkyOTJDNi41Mjg5NiAyLjk2MjE5IDUuNTc5ODcgMS45NDk3MSA0LjAzNzc0IDEuOTQ5NzFDMi40OTU4NSAxLjk0OTcxIDEuNDg3NTUgMi45NjIyMSAxLjQ4NzU1IDQuMjkyOTJDMS40ODc1NSA1LjU5NDM3IDIuNDY1NzQgNi42MzU3IDMuOTc4NDggNi42MzU3SDQuMDA3NzdINC4wMDc5MVpNOC43NTYxMyAyMi4wNTAySDEzLjI2MzhWMTQuNDc2N0MxMy4yNjM4IDE0LjA3MTMgMTMuMjkzMSAxMy42NjY0IDEzLjQxMjEgMTMuMzc2N0MxMy43MzggMTIuNTY2OSAxNC40Nzk3IDExLjcyODEgMTUuNzI0OSAxMS43MjgxQzE3LjM1NiAxMS43MjgxIDE4LjAwODYgMTIuOTcxOCAxOC4wMDg2IDE0Ljc5NDlWMjIuMDUwMUgyMi41MTU5VjE0LjI3MzlDMjIuNTE1OSAxMC4xMDgzIDIwLjI5MjEgOC4xNzAwNSAxNy4zMjYzIDguMTcwMDVDMTQuODk0NiA4LjE3MDA1IDEzLjgyNjkgOS41MjkyOSAxMy4yMzM4IDEwLjQ1NTFIMTMuMjYzOVY4LjQ4ODE2SDguNzU2MjNDOC44MTUzOSA5Ljc2MDcyIDguNzU2MjMgMjIuMDQ5OSA4Ljc1NjIzIDIyLjA0OTlMOC43NTYxMyAyMi4wNTAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
                     alt="linkedin"
                   />
-                </a>{" "}
-                <a
+                </NavLink>{" "}
+                <NavLink
                   href="https://twitter.com/Airtribe_live"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                 >
                   <img src={twitter} alt="twitter" />
-                </a>{" "}
-                <a
+                </NavLink>{" "}
+                <NavLink
                   href="https://www.youtube.com/@airtribe"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                 >
                   <img
                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyLjk5NDkgOS42Mzg5QzIzLjA0NDQgOC4xNTg0IDIyLjczMTUgNi42ODg5OCAyMi4wODU1IDUuMzY3MDdDMjEuNjQ3MiA0LjgyNDY2IDIxLjAzODkgNC40NTg2MiAyMC4zNjY2IDQuMzMyNzNDMTcuNTg1OSA0LjA3MTU5IDE0Ljc5MzYgMy45NjQ1NSAxMi4wMDE5IDQuMDEyMDhDOS4yMjAyNyAzLjk2MjM5IDYuNDM4MDkgNC4wNjU5NyAzLjY2NzEzIDQuMzIyMzlDMy4xMTkzIDQuNDI1NTMgMi42MTIzMiA0LjY5MTQ4IDIuMjA4MDUgNS4wODc4QzEuMzA4NjIgNS45NDYzIDEuMjA4NjggNy40MTUwNyAxLjEwODc1IDguNjU2MjhDMC45NjM3NTEgMTAuODg3OSAwLjk2Mzc1MSAxMy4xMjcyIDEuMTA4NzUgMTUuMzU4OEMxLjEzNzY2IDE2LjA1NzQgMS4yMzgxNiAxNi43NTA5IDEuNDA4NTYgMTcuNDI3NUMxLjUyOTA2IDE3Ljk0OTkgMS43NzI4NSAxOC40MzMyIDIuMTE4MTEgMTguODM0MkMyLjUyNTEyIDE5LjI1MTUgMy4wNDM5MSAxOS41MzI2IDMuNjA3MTcgMTkuNjQxQzUuNzYxNzMgMTkuOTE2MiA3LjkzMjY2IDIwLjAzMDMgMTAuMTAzMSAxOS45ODIzQzEzLjYwMDkgMjAuMDM0IDE2LjY2ODkgMTkuOTgyMyAyMC4yOTY2IDE5LjY5MjdDMjAuODczNyAxOS41OTEgMjEuNDA3MSAxOS4zMDk1IDIxLjgyNTcgMTguODg1OUMyMi4xMDU1IDE4LjU5NjIgMjIuMzE0NCAxOC4yNDE2IDIyLjQzNTMgMTcuODUxNkMyMi43OTI3IDE2LjcxNjUgMjIuOTY4MiAxNS41Mjg2IDIyLjk1NSAxNC4zMzQ4QzIyLjk5NDkgMTMuNzU1NiAyMi45OTQ5IDEwLjI1OTUgMjIuOTk0OSA5LjYzODlaTTkuNzQzMyAxNC45NTU0VjguNTUyODRMMTUuNjU5NiAxMS43Njk2QzE0LjAwMDYgMTIuNzIxMiAxMS44MTIgMTMuNzk3IDkuNzQzMyAxNC45NTU0WiIgZmlsbD0iI0YyRjJGMiIvPgo8L3N2Zz4K"
                     alt="instagram"
                   />
-                </a>
+                </NavLink>
               </div>
             </div>{" "}
             <div className="links-container">
               <div className="links">
-                <a
+                <NavLink
                   href="/"
                   aria-current="page"
                   className="item nuxt-link-exact-active nuxt-link-active"
+                  style={{ textDecoration: "none" }}
                 >
                   <div>Home</div>
-                </a>{" "}
-                <a
+                </NavLink>{" "}
+                <NavLink
                   href="https://blog.airtribe.live/"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                   className="item"
                 >
                   <div>Blog</div>
-                </a>{" "}
-                <a
+                </NavLink>{" "}
+                <NavLink
                   href="https://angel.co/company/airtribe"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                   className="item"
                 >
                   <div>Careers</div>
-                </a>{" "}
-                <a
+                </NavLink>{" "}
+                <NavLink
                   href="https://airtribe.live/terms-conditions"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                   className="item"
                 >
                   <div>Terms &amp; Conditions</div>
-                </a>{" "}
-                <a
+                </NavLink>{" "}
+                <NavLink
                   href="https://airtribe.live/privacy-policy"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                   className="item"
                 >
                   <div>Privacy Policy</div>
-                </a>
+                </NavLink>
               </div>{" "}
               <div className="links">
-                <a
+                <NavLink
                   href="https://airtribe.live/about-us"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                   className="item"
                 >
                   <div>About Us</div>
-                </a>{" "}
-                <a
+                </NavLink>{" "}
+                <NavLink
                   href="https://airtribe.live/contact-us"
                   target="_blank"
                   rel="noreferrer noopener"
+                  style={{ textDecoration: "none" }}
                   className="item"
                 >
                   <div>Contact Us</div>
-                </a>
+                </NavLink>
               </div>
             </div>{" "}
             <div className="sign-up-container">

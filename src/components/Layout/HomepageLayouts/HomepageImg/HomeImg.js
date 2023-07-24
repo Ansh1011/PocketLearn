@@ -1,10 +1,14 @@
-import React from "react";
-import { ReactComponent as Svg } from "./stopwatch.svg";
+import React, { useEffect } from "react";
+import { ReactComponent as Svg } from "./student.svg";
 
-export default function Stopwatch() {
+export default function StudentImg() {
   useEffect(() => {
-    // ... javascript goes here
-    // !function ... long code
+    document.addEventListener("DOMContentLoaded", function () {
+      window.setTimeout(
+        document.querySelector("svg").classList.add("animated"),
+        1000
+      );
+    });
   }, []);
   return <Svg />;
 }

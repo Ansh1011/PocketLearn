@@ -10,12 +10,9 @@ const HomepageSec3 = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="section-title text-center">
-              {/* <span class="subtitle bg-primary-opacity">CATEGORIES</span> */}
-              <h2 className="Hp3title">
-                Why <span className="Hp3span">PocketLearn ?</span>
-              </h2>
-            </div>
+            <div className="Hp3LineEffect" />
+            <div className="Hp3heading">Why PocketLearn</div>
+            <div className="section-title text-center"></div>
           </div>
         </div>
         <div className="row g-5 mt--20">
@@ -33,14 +30,14 @@ const HomepageSec3 = () => {
                   />
                 </div>
                 <div className="content">
-                  <h5 className="title">Live Sessions</h5>
+                  <h5 className="title">Top Coding Standars</h5>
                   <div className="read-more-btn">
                     <span
                       className="rbt-btn-link"
                       style={{ textAlign: "justify" }}
                     >
-                      Unlock your potential with our interactive live classes –
-                      where learning comes alive!
+                      Unlock your potential with best in class coding standards
+                      – where learning meets practicallity!
                     </span>
                   </div>
                 </div>
