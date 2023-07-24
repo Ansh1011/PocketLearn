@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../LayoutStyles/HomepageSec5.css";
+import ModalPopUp from "../Auth/ModalPopUp";
 
 const HomepageSec5 = () => {
+  const [open, setOpen] = useState(false);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setOpen(true);
+  //   }, 45000);
+  // }, []);
+
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
   return (
     <div>
       <div class="max-width-container">
@@ -18,9 +28,11 @@ const HomepageSec5 = () => {
               </div>
             </div>
           </div>{" "}
+          <ModalPopUp open={open} onClose={onCloseModal} />
           <button
             data-v-91eb3b7c
             className="button-container default filled primary "
+            onClick={onOpenModal}
           >
             {/**/} <div data-v-91eb3b7c>Get in touch</div>{" "}
           </button>

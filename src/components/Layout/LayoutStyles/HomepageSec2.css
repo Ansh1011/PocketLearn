@@ -149,3 +149,16 @@
   height: inherit;
   width: auto;
 }
+.Hp2heading {
+  color: #5522c2;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 162%;
+  margin: -1.625rem auto 0;
+  padding: 0 2rem;
+  background: #ffffff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}

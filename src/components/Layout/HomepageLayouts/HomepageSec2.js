@@ -5,9 +5,12 @@ import playbtn from "../../../images/icon/play.png";
 const HomepageSec2 = () => {
   return (
     <div className="content-container">
-      <div className="section-title">
+      {/* Industry-relevant Projects to set you apart */}
+      <div className="Hp3LineEffect" />
+      <div className="Hp2heading">
         Industry-relevant Projects to set you apart
-      </div>{" "}
+      </div>
+      <div className="section-title"></div>{" "}
       <div className="transition-courses">
         <div>
           <div className="transition-course-card-container">

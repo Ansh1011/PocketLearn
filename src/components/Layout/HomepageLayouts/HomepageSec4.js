@@ -53,8 +53,8 @@ const HomepageSec4 = () => {
   return (
     <div>
       <div className="home-experts-section-container">
-        <h2>Learn from experts at top companies</h2>
-
+        <div className="Hp4LineEffect" />
+        <div className="Hp4heading">Learn from experts at top companies</div>
         <div className="container">
           <Slider {...settings}>
             <div className="card" style={{ width: "18rem" }}>

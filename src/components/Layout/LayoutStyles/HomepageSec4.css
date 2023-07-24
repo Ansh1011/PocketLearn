@@ -30,3 +30,21 @@
   font-size: 1.5em;
   color: rgb(255, 255, 255);
 }
+.Hp4LineEffect {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, #171421, #5100ff 50%, #171421);
+}
+.Hp4heading {
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 162%;
+  margin: -1.625rem auto 0;
+  padding: 0 2rem;
+  background: #171421;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}

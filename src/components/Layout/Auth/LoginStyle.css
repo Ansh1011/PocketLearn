@@ -1,12 +1,20 @@
 .Auth-form {
-  width: 420px;
+  width: 520px;
   box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
   padding-top: 30px;
   padding-bottom: 20px;
   border-radius: 8px;
   background-color: white;
 }
+.modalPhoneNo {
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  outline-color: grey;
+  border-radius: 8px;
+}
 
+.form-group input {
+  padding: 10px;
+}
 .Auth-form-content {
   padding-left: 12%;
   padding-right: 12%;
