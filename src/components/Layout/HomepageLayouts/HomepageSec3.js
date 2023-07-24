@@ -30,7 +30,7 @@ const HomepageSec3 = () => {
                   />
                 </div>
                 <div className="content">
-                  <h5 className="title">Top Coding Standars</h5>
+                  <h5 className="title">Top Coding Standards</h5>
                   <div className="read-more-btn">
                     <span
                       className="rbt-btn-link"

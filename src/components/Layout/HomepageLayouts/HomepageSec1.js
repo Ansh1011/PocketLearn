@@ -1,7 +1,6 @@
 import React from "react";
 import "../LayoutStyles/HomepageSec1.css";
-import logo from "../../../images/extra/b3.jpg";
-// import StudentImg from "./HomepageImg/HomeImg";
+import logo from "../../../images/undraw_online_test_re_kyfx.svg";
 
 const HomepageSec1 = () => {
   return (
@@ -14,6 +13,7 @@ const HomepageSec1 = () => {
           </div>
           <div className="image-col col-lg-6 col-md-12">
             <img className="title-image" src={logo} alt="my-gif" />
+            {/* <StudentImg /> */}
           </div>
         </div>
       </div>
