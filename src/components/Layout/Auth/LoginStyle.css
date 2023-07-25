@@ -13,7 +13,8 @@
 }
 
 .form-group input {
-  /* padding: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .Auth-form-content {
   padding-left: 12%;
