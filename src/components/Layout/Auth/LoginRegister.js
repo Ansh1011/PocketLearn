@@ -59,16 +59,18 @@ const LoginRegister = () => {
                       <div className="center-wrap">
                         <div className="LoginSection text-center">
                           <h4 className="mb-4 pb-3">Welcome Back</h4>
-                          <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
-                            <GoogleLogin
-                              onSuccess={(credentialResponse) => {
-                                console.log(credentialResponse);
-                              }}
-                              onError={() => {
-                                console.log("Login Failed");
-                              }}
-                            />
-                          </GoogleOAuthProvider>
+                          <div className="googleAuth">
+                            <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
+                              <GoogleLogin
+                                onSuccess={(credentialResponse) => {
+                                  console.log(credentialResponse);
+                                }}
+                                onError={() => {
+                                  console.log("Login Failed");
+                                }}
+                              />
+                            </GoogleOAuthProvider>
+                          </div>
                           <br />
                           <p className="loginTxt">or Login with Email.</p>
                           <div className="form-group">
@@ -113,17 +115,21 @@ const LoginRegister = () => {
                             Sign up and discover a great amount of new
                             opportunities
                           </p>
-                          <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
-                            <GoogleLogin
-                              onSuccess={(credentialResponse) => {
-                                console.log(credentialResponse);
-                              }}
-                              onError={() => {
-                                console.log("Login Failed");
-                              }}
-                            />
-                          </GoogleOAuthProvider>
+                          <div className="googleAuth">
+                            <GoogleOAuthProvider clientId="317641595846-22k5afqkbqr22b1ngrolbkpn95fo6hta.apps.googleusercontent.com">
+                              <GoogleLogin
+                                onSuccess={(credentialResponse) => {
+                                  console.log(credentialResponse);
+                                }}
+                                onError={() => {
+                                  console.log("Login Failed");
+                                }}
+                              />
+                            </GoogleOAuthProvider>
+                          </div>
                           <br />
+                          <p className="loginTxt">or Sign up with email</p>
+
                           <div className="form-group">
                             <input
                               type="text"

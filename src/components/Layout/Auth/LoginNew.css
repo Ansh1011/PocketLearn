@@ -191,3 +191,7 @@ p {
   color: #ffeba7;
   box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
 }
+
+.googleAuth {
+  margin-left: 90px;
+}

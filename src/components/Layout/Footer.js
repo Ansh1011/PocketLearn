@@ -2,6 +2,8 @@ import React from "react";
 import "../Layout/LayoutStyles/FooterStyle.css";
 import twitter from "../../images/icon/tt.png";
 import logo from "../../images/icon/logo_vishal_02.png";
+import gitHubImg from "../../images/icon/github.png";
+import instaImg from "../../images/icon/insta.png";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
@@ -41,7 +43,8 @@ const Footer = () => {
               </div>
               <div className="socials" style={{ marginTop: "10px" }}>
                 <NavLink
-                  href="https://www.linkedin.com/company/airtribe/"
+                  href="#"
+                  to="https://www.linkedin.com/company/pocketlearnofficial/"
                   target="_blank"
                   rel="noreferrer noopener"
                   style={{ textDecoration: "none" }}
@@ -52,7 +55,8 @@ const Footer = () => {
                   />
                 </NavLink>{" "}
                 <NavLink
-                  href="https://twitter.com/Airtribe_live"
+                  href="#"
+                  to="https://twitter.com/pocketlearnofc"
                   target="_blank"
                   rel="noreferrer noopener"
                   style={{ textDecoration: "none" }}
@@ -60,15 +64,22 @@ const Footer = () => {
                   <img src={twitter} alt="twitter" />
                 </NavLink>{" "}
                 <NavLink
-                  href="https://www.youtube.com/@airtribe"
+                  href="#"
+                  to="https://github.com/pocketlearnofficial"
                   target="_blank"
                   rel="noreferrer noopener"
                   style={{ textDecoration: "none" }}
                 >
-                  <img
-                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyLjk5NDkgOS42Mzg5QzIzLjA0NDQgOC4xNTg0IDIyLjczMTUgNi42ODg5OCAyMi4wODU1IDUuMzY3MDdDMjEuNjQ3MiA0LjgyNDY2IDIxLjAzODkgNC40NTg2MiAyMC4zNjY2IDQuMzMyNzNDMTcuNTg1OSA0LjA3MTU5IDE0Ljc5MzYgMy45NjQ1NSAxMi4wMDE5IDQuMDEyMDhDOS4yMjAyNyAzLjk2MjM5IDYuNDM4MDkgNC4wNjU5NyAzLjY2NzEzIDQuMzIyMzlDMy4xMTkzIDQuNDI1NTMgMi42MTIzMiA0LjY5MTQ4IDIuMjA4MDUgNS4wODc4QzEuMzA4NjIgNS45NDYzIDEuMjA4NjggNy40MTUwNyAxLjEwODc1IDguNjU2MjhDMC45NjM3NTEgMTAuODg3OSAwLjk2Mzc1MSAxMy4xMjcyIDEuMTA4NzUgMTUuMzU4OEMxLjEzNzY2IDE2LjA1NzQgMS4yMzgxNiAxNi43NTA5IDEuNDA4NTYgMTcuNDI3NUMxLjUyOTA2IDE3Ljk0OTkgMS43NzI4NSAxOC40MzMyIDIuMTE4MTEgMTguODM0MkMyLjUyNTEyIDE5LjI1MTUgMy4wNDM5MSAxOS41MzI2IDMuNjA3MTcgMTkuNjQxQzUuNzYxNzMgMTkuOTE2MiA3LjkzMjY2IDIwLjAzMDMgMTAuMTAzMSAxOS45ODIzQzEzLjYwMDkgMjAuMDM0IDE2LjY2ODkgMTkuOTgyMyAyMC4yOTY2IDE5LjY5MjdDMjAuODczNyAxOS41OTEgMjEuNDA3MSAxOS4zMDk1IDIxLjgyNTcgMTguODg1OUMyMi4xMDU1IDE4LjU5NjIgMjIuMzE0NCAxOC4yNDE2IDIyLjQzNTMgMTcuODUxNkMyMi43OTI3IDE2LjcxNjUgMjIuOTY4MiAxNS41Mjg2IDIyLjk1NSAxNC4zMzQ4QzIyLjk5NDkgMTMuNzU1NiAyMi45OTQ5IDEwLjI1OTUgMjIuOTk0OSA5LjYzODlaTTkuNzQzMyAxNC45NTU0VjguNTUyODRMMTUuNjU5NiAxMS43Njk2QzE0LjAwMDYgMTIuNzIxMiAxMS44MTIgMTMuNzk3IDkuNzQzMyAxNC45NTU0WiIgZmlsbD0iI0YyRjJGMiIvPgo8L3N2Zz4K"
-                    alt="instagram"
-                  />
+                  <img src={gitHubImg} alt="instagram" />
+                </NavLink>
+                <NavLink
+                  href="#"
+                  to="https://www.instagram.com/pocketlearnofficial/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  style={{ textDecoration: "none", marginLeft: "5px" }}
+                >
+                  <img src={instaImg} alt="instagram" />
                 </NavLink>
               </div>
             </div>{" "}
