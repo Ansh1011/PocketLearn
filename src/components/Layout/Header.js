@@ -43,7 +43,8 @@ const Header = () => {
           {/* For Projects  */}
 
           <li className="nav-item dropdown">
-            <a
+            <NavLink
+              to="/coming-soon"
               className="nav-link dropdown-toggle"
               href="#"
               role="button"
@@ -51,10 +52,11 @@ const Header = () => {
               aria-expanded="false"
             >
               Projects
-            </a>
+            </NavLink>
             <ul className="dropdown-menu">
               <li className="nav-item dropend">
-                <a
+                <NavLink
+                  to="/coming-soon"
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -62,22 +64,31 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Data Science
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Action
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Another action
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropend">
-                <a
+                <NavLink
+                  to="/coming-soon"
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -85,17 +96,25 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Big Data
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Action
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Another action
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
@@ -104,7 +123,8 @@ const Header = () => {
 
           {/* FOR LIVE SESSIONS  */}
           <li className="nav-item dropdown">
-            <a
+            <NavLink
+              to="/coming-soon"
               className="nav-link dropdown-toggle"
               href="#"
               role="button"
@@ -112,10 +132,11 @@ const Header = () => {
               aria-expanded="false"
             >
               Live Sessions
-            </a>
+            </NavLink>
             <ul className="dropdown-menu">
               <li className="nav-item dropend">
-                <a
+                <NavLink
+                  to="/coming-soon"
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -123,22 +144,31 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Data Science
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Action
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Another action
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropend">
-                <a
+                <NavLink
+                  to="/coming-soon"
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -146,17 +176,25 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Big Data
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Action
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Another action
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
@@ -165,7 +203,8 @@ const Header = () => {
 
           {/* For Recorded Sessions  */}
           <li className="nav-item dropdown">
-            <a
+            <NavLink
+              to="/coming-soon"
               className="nav-link dropdown-toggle"
               href="#"
               role="button"
@@ -173,10 +212,11 @@ const Header = () => {
               aria-expanded="false"
             >
               Recorded Sessions
-            </a>
+            </NavLink>
             <ul className="dropdown-menu">
               <li className="nav-item dropend">
-                <a
+                <NavLink
+                  to="/coming-soon"
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -184,22 +224,31 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Data Science
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Action
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Another action
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropend">
-                <a
+                <NavLink
+                  to="/coming-soon"
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -207,17 +256,25 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Big Data
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Action
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      to="/coming-soon"
+                      className="dropdown-item"
+                      href="#"
+                    >
                       Another action
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
