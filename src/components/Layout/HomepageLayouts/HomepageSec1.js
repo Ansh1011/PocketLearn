@@ -24,6 +24,19 @@ const HomepageSec1 = () => {
               </span>
             </h1>
             <h4>🔨 The Ultimate Project Arena to Ace Interviews! 🚀</h4>
+            <button
+              type="button"
+              class="btn btn-dark btn-lg Download-button"
+              style={{ backgroundColor: "#171421" }}
+            >
+              <i class="fa-solid fa-bars-progress"></i> View Projects
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg Download-button"
+            >
+              <i class="fa-solid fa-video"></i> View Courses
+            </button>
           </div>
           <div className="image-col col-lg-6 col-md-12">
             <img className="title-image" src={logo} alt="my-gif" />

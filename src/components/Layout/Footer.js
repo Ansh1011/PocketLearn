@@ -68,9 +68,11 @@ const Footer = () => {
                   to="https://github.com/pocketlearnofficial"
                   target="_blank"
                   rel="noreferrer noopener"
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: "none", marginLeft: "2px" }}
                 >
-                  <img src={gitHubImg} alt="instagram" />
+                  {/* <img src={gitHubImg} alt="instagram" /> */}
+                  <i class="fab fa-github fa-xl" style={{ color: "white" }}></i>
+                  {/* <i class="fa-brands fa-square-github"></i> */}
                 </NavLink>
                 <NavLink
                   href="#"

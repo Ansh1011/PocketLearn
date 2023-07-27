@@ -46,8 +46,9 @@ const ConsultModal = (props) => {
             />
           </div>
           <div className="form-group mt-3">
-            <label>Your Query</label>
+            {/* <label>Your Query</label> */}
             <textarea
+              placeholder="Your Query"
               className="form-control mt-1"
               rows="2"
               cols="20"
