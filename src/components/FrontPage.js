@@ -11,6 +11,7 @@ import HomepageSec9 from "./Layout/HomepageLayouts/HomepageSec9";
 import HomepageSec10 from "./Layout/HomepageLayouts/HomepageSec10";
 import ModalPopUp from "./Layout/Auth/ModalPopUp";
 
+
 const FrontPage = () => {
   return (
     <div>
