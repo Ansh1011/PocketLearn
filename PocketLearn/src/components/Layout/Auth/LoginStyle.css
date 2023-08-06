@@ -1,0 +1,109 @@
+.Auth-form {
+  width: 520px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+.modalPhoneNo {
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  outline-color: grey;
+  border-radius: 8px;
+}
+
+.form-group input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 13px;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.customModal {
+  padding-right: 0;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  border-radius: 8px;
+}
+
+.ModalBtn {
+  background-color: rgb(45, 1, 84);
+  color: aliceblue;
+}
+.ModalBtn:hover {
+  background-color: rgb(101, 32, 161);
+  color: aliceblue;
+}
+
+.LoginRegister {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  /* background-image: linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(16, 2, 29);
+  opacity: 0.9;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+.LoginRegister label {
+  text-align: left;
+  padding: 0.25rem 0;
+  margin-bottom: 0px;
+}
+
+.LoginRegister input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.LoginRegister Button {
+  border: none;
+  background-color: rgb(191, 16, 255);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.LoginRegister .link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}

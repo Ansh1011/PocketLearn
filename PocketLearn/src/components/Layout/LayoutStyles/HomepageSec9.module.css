@@ -1,0 +1,95 @@
+.homeInvestorSectionContainer {
+  background: #171421;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.maxWidthContainer {
+  padding: 7rem min(6.25rem, 6.94%);
+  position: relative;
+}
+.blueHue {
+  position: absolute;
+  width: 48.5rem;
+  height: 48.5rem;
+  right: 0.875rem;
+  top: -25rem;
+  background: rgba(22, 59, 106, 0.43);
+  filter: blur(182.923px);
+  border-radius: 2rem;
+  z-index: -1;
+}
+.investorsSection .headingContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.heading {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 130%;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.companyImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -1rem -0.75rem;
+}
+.companyImages .image {
+  margin: 1rem 0.75rem;
+  height: 6.75rem;
+  width: auto;
+}
+.investorCards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: -3.75rem auto;
+  flex-wrap: wrap;
+  max-width: 62.5rem;
+}
+.investorCards .homeInvestorCardContainer {
+  margin: 3.75rem 1.75rem;
+}
+.homeInvestorCardContainer[data-v-6cda425c] {
+  width: 9.75rem;
+}
+.investorImageContainer[data-v-6cda425c] {
+  background: linear-gradient(180deg, #293c66, rgba(41, 60, 102, 0.3) 85.42%);
+  border-radius: 50%;
+  height: 6.75rem;
+  width: 6.75rem;
+  margin: 0 auto 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.investorImage[data-v-6cda425c] {
+  height: 6.125rem;
+  width: 6.125rem;
+  border-radius: 50%;
+  border: 3px solid #171421;
+}
+.name[data-v-6cda425c] {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 145%;
+  color: #fff;
+  margin: 1rem auto 0.75rem;
+  text-align: center;
+}
+.role[data-v-6cda425c] {
+  font-size: 0.875rem;
+  line-height: 145%;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.7);
+  margin: 0.5rem auto 0;
+}

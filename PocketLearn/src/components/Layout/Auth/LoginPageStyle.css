@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:300);
+
+.vid-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.bgvid.back {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.inner-container {
+  width: 450px;
+  position: absolute;
+  height: 550px;
+  position: absolute;
+  top: calc(40vh - 200px);
+  left: calc(47vw - 200px);
+  overflow: hidden;
+  border-radius: 7px;
+}
+.Loginbox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: "Inter";
+  color: #ffffff;
+  background: rgb(0, 0, 0);
+  padding: 30px 0px;
+  border-radius: 7px;
+}
+.Loginbox h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 30px;
+}
+.Loginbox input {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 7px;
+  border: 0;
+}
+input::placeholder {
+  color: rgb(182, 171, 163);
+}
+.signup {
+  color: rgb(182, 171, 163) !important;
+}
+.Loginbox input:focus,
+.Loginbox input:active,
+.Loginbox button:focus,
+.Loginbox button:active {
+  outline: none;
+}
+.Loginbox button {
+  background: #2f2d36;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  width: 330px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.Loginbox button:active {
+  background: #000000;
+}
+.Loginbox p {
+  font-size: 14px;
+  text-align: center;
+}
+.Loginbox p span {
+  cursor: pointer;
+  color: #666;
+}
+
+@media screen and (max-width: 986px) {
+  .bgvid {
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 986px) {
+  .bgvid.back {
+    width: 100%;
+  }
+}
+
+.googleAuth {
+  margin-left: 130px;
+  padding-bottom: 15px;
+}

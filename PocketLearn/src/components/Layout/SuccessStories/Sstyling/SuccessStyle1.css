@@ -1,0 +1,40 @@
+.reviews-container {
+  padding: 0rem 0 10.5rem;
+  background: #171421;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+.reviews-container .max-width-container {
+  padding: 0 min(6rem, 6.66%);
+}
+.reviews-container .star {
+  position: absolute;
+  width: 47.5rem;
+  height: 47.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -21rem;
+  background: rgba(104, 63, 190, 0.2);
+  filter: blur(179.424px);
+  border-radius: 2rem;
+  z-index: -1;
+}
+.heading-container {
+  margin-bottom: 3.5rem;
+}
+.Successheading {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 130%;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+.sub-heading {
+  font-size: 1rem;
+  line-height: 145%;
+  text-align: center;
+}

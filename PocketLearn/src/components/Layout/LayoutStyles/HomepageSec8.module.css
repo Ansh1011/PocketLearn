@@ -1,0 +1,76 @@
+.mainValuesContainer {
+  padding: 6.25rem 6% 8.5rem;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.maxWidthContainer {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+.headingContainer {
+  width: 25rem;
+  height: 9.5rem;
+  margin: 2.5rem 0.625rem;
+}
+.heading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.375rem;
+  line-height: 140%;
+  color: rgba(23, 20, 33, 0.5);
+  width: 90%;
+}
+.heading span {
+  color: #171421;
+}
+.values[data-v-86bd0fc4] {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: -2.5rem 0;
+}
+.values .value {
+  padding: 0.5rem 1.5rem;
+  width: 25rem;
+  position: relative;
+  margin: 2.5rem 0.625rem;
+  height: 9.5rem;
+}
+.value[data-v-86bd0fc4]:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background: linear-gradient(145.07deg, #683fbe -2.83%, #493080 89%);
+  border-radius: 1px;
+  width: 0.375rem;
+  height: 8rem;
+}
+.valueHeading[data-v-86bd0fc4] {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.375rem;
+  line-height: 140%;
+  color: #221c16;
+  margin-bottom: 0.75rem;
+}
+.valueDesc[data-v-86bd0fc4] {
+  font-size: 1rem;
+  line-height: 145%;
+  color: #171421;
+  width: 90%;
+}
+.mainValuesContainer[data-v-86bd0fc4]:after {
+  background: url(https://www.airtribe.live/_nuxt/img/bg-wave-desktop.7af8fed.svg);
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 7.5rem;
+  z-index: -1;
+}
